@@ -12,3 +12,13 @@ thunderbird user config directory (normally /home/*\[user\]*/.thunderbird/*\[ran
 This will create the chrome folder (if it doesn't exist) containing the icons, font, and all 3 css files.
 
 Simply copy the css file for whichever theme you want to use and rename it userChrome.css and then restart Thunderbird
+
+## Screenshots
+Light:
+![alt text](https://raw.githubusercontent.com/spymastermatt/thunderbird-monterail/master/screenshots/light.png)
+
+Dark:
+![alt text](https://raw.githubusercontent.com/spymastermatt/thunderbird-monterail/master/screenshots/dark.png)
+
+Monterail:
+![alt text](https://raw.githubusercontent.com/spymastermatt/thunderbird-monterail/master/screenshots/monterail.png)
