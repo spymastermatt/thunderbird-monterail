@@ -192,8 +192,9 @@ treechildren::-moz-tree-image(threadCol) { list-style-image: url("icons/message-
 
 /* ..... read column ..... */
 .readColumnHeader { list-style-image: url("icons/message-list/read-header.svg") !important; }
-treechildren::-moz-tree-image(unreadButtonColHeader) { list-style-image: url("icons/message-list/dot-read.svg") !important; }
-treechildren::-moz-tree-image(unreadButtonColHeader, unread) { list-style-image: url("icons/message-list/dot-unread.svg") !important; }
+/**** Dots are reversed for dark backgrounds ****/
+treechildren::-moz-tree-image(unreadButtonColHeader) { list-style-image: url("icons/message-list/dot-unread.svg") !important; }
+treechildren::-moz-tree-image(unreadButtonColHeader, unread) { list-style-image: url("icons/message-list/dot-read.svg") !important; }
 
 /* ..... attachment column ..... */
 .attachmentColumnHeader { list-style-image: url("icons/message-list/paperclip.svg") !important; }
