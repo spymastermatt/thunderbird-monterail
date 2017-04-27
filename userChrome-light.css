@@ -9,7 +9,10 @@
 
 @font-face {
     font-family: 'LightSans';
-    src: url('EncodeSansNarrow-Light.ttf') format('truetype');
+    src: url('fonts/encodesansnarrow-light.woff2') format('woff2'),
+         url('fonts/encodesansnarrow-light.woff') format('woff'),
+         url('fonts/encodesansnarrow-light.ttf') format('truetype'),
+         url('fonts/encodesansnarrow-light.svg#encode_sans_narrowlight') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -20,7 +23,6 @@ window, #messengerBox {
 
 * {
 	font-family: LightSans;
-	/*font-size:14px;*/
 }
 
 #mail-toolbar-menubar2,
@@ -71,10 +73,7 @@ box, hbox, vbox, toolbox {
 }
 
 #folderTree > treechildren::-moz-tree-row {
-	/*margin-bottom: 10px !important;*/
 	height: 25px !important;
-	/*-moz-appearance: menubar !important;*/
-	/*color: white !important;*/
 }
 
 #folderTree > treechildren::-moz-tree-row(selected) {
