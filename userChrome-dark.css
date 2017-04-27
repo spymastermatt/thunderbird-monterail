@@ -170,7 +170,7 @@ thumb:hover {
 }
 
 #expandedHeader2Rows #expandedsubjectRow, #expandedHeader2Rows #expandedtoRow {
-	display: flex !important;
+	display: block !important;
 }
 
 #expandedHeaders2 .headerName {
