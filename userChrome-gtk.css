@@ -17,7 +17,10 @@
 
 @font-face {
     font-family: 'LightSans';
-    src: url('EncodeSansNarrow-Light.ttf') format('truetype');
+    src: url('fonts/encodesansnarrow-light.woff2') format('woff2'),
+         url('fonts/encodesansnarrow-light.woff') format('woff'),
+         url('fonts/encodesansnarrow-light.ttf') format('truetype'),
+         url('fonts/encodesansnarrow-light.svg#encode_sans_narrowlight') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -37,8 +40,6 @@
 #ab-bar2,
 #FormatToolbar {
 	-moz-appearance: none !important;
-	/*border-style: none !important;
-	border-width: none !important;*/
 }
 
 toolbar > toolbarbutton {
@@ -77,6 +78,14 @@ box, hbox, vbox, toolbox {
 
 #folderTree > treechildren::-moz-tree-row {
 	height: var(--folder-view-row-height) !important;
+}
+
+#folderTree > treechildren::-moz-tree-row::after {
+	content: "Hello" !important;
+	display: block !important;
+	height: 20px !important;
+	font-size: 25px !important;
+	width: 50px !important;
 }
 
 #folderTree > treechildren::-moz-tree-row(selected) {
