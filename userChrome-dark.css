@@ -18,7 +18,7 @@
 }
 
 window, #messengerBox {
-	background-color: white !important;
+	background-color: white;
 }
 
 * {
@@ -69,6 +69,28 @@ box, hbox, vbox, toolbox {
 	margin-top: 30px !important;
 }
 
+/* ..... BG Color ..... */
+#folderTree > treechildren,
+#tabs-toolbar
+{
+	background-color: #3c3b37 !important;
+}
+
+/* ..... Hover/selected/focus color Thread Panel ..... */
+treechildren{
+    --treechildren-selectedImage: linear-gradient(rgb(240, 119, 70), rgb(240, 119, 70)) !important;
+    --treechildren-selectedFocusColor: rgb(240, 119, 70) !important;
+    --treechildren-selectedFocusCurrentImage:  linear-gradient(rgb(240, 119, 70), rgb(240, 119, 70)) !important;
+    --treechildren-hoverSelectedImage: linear-gradient(rgb(240, 119, 70), rgb(240, 119, 70)) !important;
+    --treechildren-hoverColor: rgb(239, 126, 80) !important;
+    --treechildren-hoverImage:  linear-gradient(rgb(239, 126, 80), rgb(239, 126, 80)) !important;
+}
+
+/* ..... Folder Panel selected color ..... */
+#folderTree treechildren{
+    --treechildren-hoverSelectedImage: linear-gradient(rgb(240,119,70), rgb(240,119,70)) !important;
+}
+
 #folderTree > treechildren::-moz-tree-row > treechildren::-moz-tree-row {
 	margin-top: 5px !important;
 }
@@ -76,7 +98,7 @@ box, hbox, vbox, toolbox {
 #folderTree > treechildren::-moz-tree-row {
 	/*margin-bottom: 10px !important;*/
 	height: 25px !important;
-	-moz-appearance: menubar !important;
+	/*-moz-appearance: menubar !important;*/
 	color: white !important;
 }
 
@@ -87,6 +109,7 @@ box, hbox, vbox, toolbox {
 treechildren::-moz-tree-row(selected) {
 	background-color: Highlight !important;
 }
+
 treechildren::-moz-tree-cell-text(selected) {
 	color: white !important;
 }
