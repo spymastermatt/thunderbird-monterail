@@ -58,7 +58,7 @@ box, hbox, vbox, toolbox {
 #folderTree {
 	/*background-color: darkgray !important;*/
 	-moz-appearance: menubar !important;
-	color: white !important;
+	/*! color: white !important; */
 }
 
 #folderTree > hbox {
@@ -72,7 +72,7 @@ box, hbox, vbox, toolbox {
 #folderTree > treechildren::-moz-tree-row {
 	/*margin-bottom: 10px !important;*/
 	height: 25px !important;
-	-moz-appearance: menubar !important;
+	/*-moz-appearance: menubar !important;*/
 	color: white !important;
 }
 
@@ -113,7 +113,7 @@ scrollbar {
 	width: 10px !important;
 	max-width:10px !important;
 	-moz-appearance: none !important;
-	background: none !important;
+	background-color: red !important;
 	border: none !important;
 }
 
@@ -136,7 +136,7 @@ thumb {
 	-moz-appearance: none !important;
 	min-height: 100px !important;
 	border: none !important;
-	background: rgba(0,0,0,0.3) !important;
+	/*! background: rgba(0,0,0,0.3) !important; */
 }
 
 thumb:hover {
@@ -182,6 +182,85 @@ thumb:hover {
 
 .emailStar {
 	margin-inline-start: 2px !important;
+}
+
+/* ..... BG Color ..... */
+#folderTree > treechildren,
+#tabs-toolbar,
+#titlebar-content,
+#folderPaneCols,
+#msgHeaderView
+{
+	background-color: #31363b !important;
+}
+
+/* ..... Hover/selected/focus color Thread Panel ..... */
+treechildren{
+	  --treechildren-hoverColor: rgb(75, 178, 232) !important;
+    --treechildren-hoverImage:  linear-gradient(rgb(75, 178, 232), rgb(75, 178, 232)) !important;
+    --treechildren-selectedImage: linear-gradient(rgb(61,174,233), rgb(61,174,233)) !important;
+    --treechildren-selectedFocusColor: rgb(61,174,233) !important;
+    --treechildren-selectedFocusCurrentImage:  linear-gradient(rgb(61,174,233), rgb((61,174,233))) !important;
+    --treechildren-hoverSelectedImage: linear-gradient(rgb(61,174,233), rgb(61,174,233)) !important;
+}
+
+/* ..... Folder Panel selected color ..... */
+#folderTree treechildren{
+    --treechildren-hoverSelectedImage: linear-gradient(rgb(61,174,233), rgb(61,174,233)) !important;
+	  --treechildren-hoverColor: rgb(75, 178, 232) !important;
+    --treechildren-hoverImage:  linear-gradient(rgb(75, 178, 232), rgb(75, 178, 232)) !important;
+	  color: #fff !important;;
+}
+
+/* ..... Mail Toolbox/Menu background ..... */
+#mail-toolbox,  #mail-toolbar-menubar2, #quick-filter-bar-main-bar{
+    background-image: linear-gradient(rgb(131, 134, 137), rgb(131, 134, 137)) !important;
+}
+
+/* ..... Tab background (start and end not working properly) ..... */
+/*.tab-background-start, .tab-background-middle, .tab-background-end{
+	  background-color: rgb(131, 134, 137) !important;
+	  color: #fff !important;
+}*/
+
+/* ..... Searchbox background and font color ..... */
+#searchInput, #qfb-qs-textbox{
+    background-color: rgb(35, 38, 41) !important;
+    border: none !important;
+	  color: #fff !important;
+}
+
+/* ..... E-mail header/Menù/Searchbox color ..... */
+#mail-menubar > menu, #mail-bar3 > toolbarbutton, .toolbarbutton-text, #qfb-qs-textbox, #threadTree treecol{
+    color: #dcdcde !important;
+}
+
+/* ..... E-Mail header color ..... */
+#msgHeaderView, .headerValue{
+	  color: #fff !important;
+}
+
+/* ..... Thread background ..... */
+#threadTree treechildren, scrollbar{
+  -moz-appearance: none !important;
+  background-image: none !important;
+  background-color: #232629 !important;
+	color: #dcdcde !important;
+}
+
+/* ..... Navigation background ..... */
+thumb{
+	background-color: #181b1d !important;
+}
+
+/* ..... Hide thread splitter ..... */
+#threadpane-splitter, #attachment-splitter, #folderpane_splitter{
+	border: none !important;
+}
+
+/* ..... Hide folder splitter ..... */
+#folderpane_splitter{
+	margin-inline-end: -5px !important;;
 }
 
 /******* Message view icons ********/
