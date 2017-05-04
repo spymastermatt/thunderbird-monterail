@@ -113,7 +113,6 @@ scrollbar {
 	width: 10px !important;
 	max-width:10px !important;
 	-moz-appearance: none !important;
-	background-color: red !important;
 	border: none !important;
 }
 
