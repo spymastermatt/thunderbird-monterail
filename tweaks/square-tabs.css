@@ -1,0 +1,25 @@
+.tabmail-tab .tab-background {
+	-moz-appearance: none !important;
+	opacity: 0.01 !important;
+	background: none !important;
+}
+
+.tabmail-tab .tab-content {
+	padding-bottom: 3px !important;
+	margin-top: 5px !important;
+}
+
+.tabmail-tab .tab-text {
+	color: var(--menu-text-color) !important;
+}
+
+.tabmail-tab[selected="true"] .tab-content {
+	background: -moz-dialog !important;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)) !important;
+	border-top: 1px solid rgba(127,127,127,0.2) !important;
+	border-left: 1px solid rgba(127,127,127,0.2) !important;
+	border-right: 1px solid rgba(127,127,127,0.2) !important;
+	border-radius: 2px !important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+}
