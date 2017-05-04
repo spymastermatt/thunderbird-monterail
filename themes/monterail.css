@@ -61,7 +61,14 @@
 
 /******************************************************/
 
-#navigation-toolbox, #compose-toolbox, #compose-toolbox > *, #ab-toolbox {
+@media(-moz-windows-glass: false) {
+	#navigation-toolbox {
+		-moz-appearance: none !important;
+		background: var(--monterail-color) !important;
+	}
+}
+
+#compose-toolbox, #compose-toolbox > *, #ab-toolbox {
 	-moz-appearance: none !important;
 	background: var(--monterail-color) !important;
 }
