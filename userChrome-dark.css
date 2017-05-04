@@ -71,7 +71,8 @@ box, hbox, vbox, toolbox {
 
 /* ..... BG Color ..... */
 #folderTree > treechildren,
-#tabs-toolbar
+#tabs-toolbar,
+#titlebar-content
 {
 	background-color: #3c3b37 !important;
 }
