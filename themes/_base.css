@@ -30,8 +30,10 @@
 	border: none !important;
 }
 
-.menubar-text {
-	color: var(--menu-text-color) !important;
+@media(-moz-windows-default-theme: 0) {
+	.menubar-text {
+		color: var(--menu-text-color) !important;
+	}
 }
 
 toolbar > toolbarbutton {

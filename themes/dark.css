@@ -61,7 +61,7 @@
 
 /******************************************************/
 
-@media(-moz-windows-glass: false) {
+@media(-moz-windows-glass: 0) {
 	#navigation-toolbox {
 		-moz-appearance: none !important;
 		background: var(--dark-color) !important;
