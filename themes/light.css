@@ -1,0 +1,87 @@
+/*
+ * Huge thanks to the following for their inspiration/guidance:
+ * http://www.linnhe2.free-online.co.uk/thunderbird/chrome.html - For a very comprehensive guide to userChrome.css
+ * https://monterail.com/blog/2016/the-power-of-email-clients-why-did-we-redesign-thunderbird?utm_source=Thunderbird&utm_campaign=Dribbble&utm_medium=blogpost%22 - For the initial inspiration to do this 
+ * http://www.omgubuntu.co.uk/2017/04/stunning-thunderbird-redesign-mockup - For alerting me to the beautiful mockup by monterail.com
+*/
+
+@import "_base.css";
+@import "../tweaks/square-tabs.css";
+
+@import "../icons/darkIcons.css"; /*For dark Folder Tree, with a light Message List*/
+
+/**** Variables: Uncomment and Edit these for easy customisation ****/
+
+:root {
+  /*---- General Options ----*/
+  --light-color: #EFF0F1;
+  --light-text-color: #31363B;
+  --light-white-background: white;
+  --light-light-background: var(--light-color);
+  --light-light-text-color: var(--light-text-color);
+  
+  /*** Set active tab background color: ***/
+  --fgTabBackgroundColor: var(--light-light-background) !important;
+  
+  --menu-text-color: var(--light-text-color);
+  /*** These highlight colors are used if more specific ones aren't specified below ***/
+  --highlight-color: #3DAEE9;
+  --highlight-text-color: var(--light-light-text-color);
+  
+  /*---- Tree Views (Folder Tree/Message List) General Options ----*/
+  --tree-row-highlight-background-color: var(--highlight-color);
+  --tree-row-highlight-text-color: var(--highlight-text-color);
+  
+  /*---- Folder Tree ----*/
+  --folder-tree-background-color: var(--light-color) !important;
+  --folder-tree-text-color: var(--light-text-color);
+  --folder-tree-row-height: 25px;
+  --folder-tree-highlight-background-color: var(--highlight-color);
+  --folder-tree-highlight-text-color: var(--folder-tree-text-color);
+  
+  /*---- Message List ----*/
+  --message-list-header-background-color: var(--light-light-background);
+  --message-list-header-text-color: var(--light-light-text-color);
+  --message-list-background-color: var(--light-white-background);
+  --message-list-text-color: var(--light-light-text-color);
+  --message-list-row-height: 40px;
+  --message-list-highlight-background-color: var(--tree-row-highlight-background-color);
+  --message-list-highlight-text-color: var(--tree-row-highlight-text-color);
+  
+  /*---- Scollbar ----*/
+  --scrollbar-thumb-color: rgba(127,127,127,0.5);
+  --scrollbar-thumb-hover-color: var(--highlight-color);
+  
+  /*---- Message Headers (To/Subject/From etc) ----*/
+  --subject-line-font-size: 150%;
+  --headers-background-color: var(--light-light-background);
+  --headers-text-color: var(--light-light-text-color);
+  
+}
+
+/******************************************************/
+
+#navigation-toolbox, #compose-toolbox, #compose-toolbox > *, #ab-toolbox {
+	-moz-appearance: none !important;
+	background: var(--light-color) !important;
+}
+
+.tabmail-tab[selected="true"] .tab-content {
+	background: var(--light-light-background) !important;
+}
+
+.tabmail-tab[selected="true"] .tab-content * {
+	color: var(--light-light-text-color) !important;
+}
+
+.mail-toolbox {
+	-moz-appearance: none !important;
+	background: var(--light-light-background) !important;
+	color: var(--light-light-text-color) !important;
+}
+
+#mail-toolbox {
+	border: none !important;
+	border-bottom: 1px solid rgba(127,127,127,0.2) !important;
+}
+
