@@ -86,6 +86,9 @@
 .mail-toolbox {
 	-moz-appearance: none !important;
 	background: var(--light-light-background) !important;
+}
+
+.mail-toolbox, .chromeclass-toolbar, .chromeclass-toolbar * {
 	color: var(--light-light-text-color) !important;
 }
 
