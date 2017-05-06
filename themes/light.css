@@ -10,6 +10,8 @@
 
 @import "../icons/darkIcons.css"; /*For dark Folder Tree, with a light Message List*/
 
+@import "../tweaks/tag.css";
+
 /**** Variables: Uncomment and Edit these for easy customisation ****/
 
 :root {
