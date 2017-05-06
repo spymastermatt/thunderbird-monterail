@@ -86,30 +86,11 @@
 .mail-toolbox {
 	-moz-appearance: none !important;
 	background-color: var(--dark-light-background) !important;
-}
-
-.mail-toolbox, .chromeclass-toolbar, .chromeclass-toolbar * {
 	color: var(--dark-light-text-color) !important;
 }
 
 #mail-toolbox {
 	border: none !important;
 	border-bottom: 1px solid rgba(127,127,127,0.2) !important;
-}
-
-#titlebar-min {
-    list-style-image: url(chrome://messenger/skin/icons/caption-buttons.svg#minimize-white) !important;
-}
-
-#titlebar-max {
-    list-style-image: url(chrome://messenger/skin/icons/caption-buttons.svg#maximize-white) !important;
-}
-
-#titlebar-close {
-    list-style-image: url(chrome://messenger/skin/icons/caption-buttons.svg#close-white) !important;
-}
-
-#messengerWindow[sizemode="maximized"] #titlebar-max {
-    list-style-image: url(chrome://messenger/skin/icons/caption-buttons.svg#restore-white) !important;
 }
 

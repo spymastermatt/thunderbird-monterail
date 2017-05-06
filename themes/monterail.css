@@ -21,7 +21,6 @@
   --monterail-white-background: white;
   --monterail-light-background: #F2F1F0;
   --monterail-text-color: #353535;
-  --monterail-light-text-color: white;
   
   /*** Set active tab background color: ***/
   --fgTabBackgroundColor: var(--monterail-light-background) !important;
@@ -84,16 +83,9 @@
 	color: var(--monterail-text-color) !important;
 }
 
-.chromeclass-toolbar, .chromeclass-toolbar * {
-	color: var(--monterail-light-text-color) !important;
-}
-
-.mail-toolbox .chromeclass-toolbar {
+.mail-toolbox {
 	-moz-appearance: none !important;
 	background: var(--monterail-light-background) !important;
-}
-
-.mail-toolbox .chromeclass-toolbar, .mail-toolbox .chromeclass-toolbar * {
 	color: var(--monterail-text-color) !important;
 }
 
