@@ -1,0 +1,802 @@
+/*
+
+	Fix for tag in thread container
+
+*/
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-CCCCCC){
+  color: #CCCCCC !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-CCCCCC, selected, focus) {
+  -moz-border-top-colors: #CCCCCC rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #CCCCCC rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #CCCCCC rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #CCCCCC rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(204, 204, 204, .28),
+  rgba(204, 204, 204, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-C0C0C0){
+  color: #C0C0C0 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-C0C0C0, selected, focus) {
+  -moz-border-top-colors: #C0C0C0 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #C0C0C0 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #C0C0C0 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #C0C0C0 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(192, 192, 192, .28),
+  rgba(192, 192, 192, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-999999){
+  color: #999999 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-999999, selected, focus) {
+  -moz-border-top-colors: #999999 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #999999 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #999999 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #999999 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(153, 153, 153, .28),
+  rgba(153, 153, 153, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-666666){
+  color: #666666 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-666666, selected, focus) {
+  -moz-border-top-colors: #666666 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #666666 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #666666 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #666666 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(102, 102, 102, .28),
+  rgba(102, 102, 102, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-333333){
+  color: #333333 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-333333, selected, focus) {
+  -moz-border-top-colors: #333333 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #333333 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #333333 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #333333 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(51, 51, 51, .28), rgba(51, 51, 51, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-000000){
+  color: #000000 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-000000, selected, focus) {
+  -moz-border-top-colors: #000000 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #000000 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #000000 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #000000 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(0, 0, 0, .28), rgba(0, 0, 0, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FFCCCC){
+  color: #FFCCCC !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FFCCCC, selected, focus) {
+  -moz-border-top-colors: #FFCCCC rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #FFCCCC rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #FFCCCC rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #FFCCCC rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(255, 204, 204, .28),
+  rgba(255, 204, 204, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FF6666){
+  color: #FF6666 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FF6666, selected, focus) {
+  -moz-border-top-colors: #FF6666 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #FF6666 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #FF6666 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #FF6666 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(255, 102, 102, .28),
+  rgba(255, 102, 102, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FF0000){
+  color: #FF0000 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FF0000, selected, focus) {
+  -moz-border-top-colors: #FF0000 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #FF0000 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #FF0000 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #FF0000 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(255, 0, 0, .28), rgba(255, 0, 0, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-CC0000){
+  color: #CC0000 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-CC0000, selected, focus) {
+  -moz-border-top-colors: #CC0000 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #CC0000 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #CC0000 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #CC0000 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(204, 0, 0, .28), rgba(204, 0, 0, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-990000){
+  color: #990000 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-990000, selected, focus) {
+  -moz-border-top-colors: #990000 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #990000 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #990000 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #990000 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(153, 0, 0, .28), rgba(153, 0, 0, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-660000){
+  color: #660000 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-660000, selected, focus) {
+  -moz-border-top-colors: #660000 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #660000 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #660000 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #660000 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(102, 0, 0, .28), rgba(102, 0, 0, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-330000){
+  color: #330000 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-330000, selected, focus) {
+  -moz-border-top-colors: #330000 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #330000 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #330000 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #330000 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(51, 0, 0, .28), rgba(51, 0, 0, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FFCC99){
+  color: #FFCC99 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FFCC99, selected, focus) {
+  -moz-border-top-colors: #FFCC99 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #FFCC99 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #FFCC99 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #FFCC99 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(255, 204, 153, .28),
+  rgba(255, 204, 153, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FF9966){
+  color: #FF9966 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FF9966, selected, focus) {
+  -moz-border-top-colors: #FF9966 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #FF9966 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #FF9966 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #FF9966 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(255, 153, 102, .28),
+  rgba(255, 153, 102, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FF9900){
+  color: #FF9900 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FF9900, selected, focus) {
+  -moz-border-top-colors: #FF9900 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #FF9900 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #FF9900 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #FF9900 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(255, 153, 0, .28), rgba(255, 153, 0, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FF6600){
+  color: #FF6600 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FF6600, selected, focus) {
+  -moz-border-top-colors: #FF6600 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #FF6600 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #FF6600 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #FF6600 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(255, 102, 0, .28), rgba(255, 102, 0, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-CC6600){
+  color: #CC6600 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-CC6600, selected, focus) {
+  -moz-border-top-colors: #CC6600 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #CC6600 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #CC6600 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #CC6600 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(204, 102, 0, .28), rgba(204, 102, 0, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-993300){
+  color: #993300 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-993300, selected, focus) {
+  -moz-border-top-colors: #993300 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #993300 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #993300 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #993300 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(153, 51, 0, .28), rgba(153, 51, 0, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-663300){
+  color: #663300 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-663300, selected, focus) {
+  -moz-border-top-colors: #663300 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #663300 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #663300 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #663300 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(102, 51, 0, .28), rgba(102, 51, 0, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FFFF99){
+  color: #FFFF99 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FFFF99, selected, focus) {
+  -moz-border-top-colors: #FFFF99 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #FFFF99 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #FFFF99 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #FFFF99 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(255, 255, 153, .28),
+  rgba(255, 255, 153, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FFFF66){
+  color: #FFFF66 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FFFF66, selected, focus) {
+  -moz-border-top-colors: #FFFF66 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #FFFF66 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #FFFF66 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #FFFF66 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(255, 255, 102, .28),
+  rgba(255, 255, 102, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FFCC66){
+  color: #FFCC66 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FFCC66, selected, focus) {
+  -moz-border-top-colors: #FFCC66 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #FFCC66 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #FFCC66 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #FFCC66 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(255, 204, 102, .28),
+  rgba(255, 204, 102, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FFCC33){
+  color: #FFCC33 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FFCC33, selected, focus) {
+  -moz-border-top-colors: #FFCC33 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #FFCC33 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #FFCC33 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #FFCC33 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(255, 204, 51, .28),
+  rgba(255, 204, 51, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-CC9933){
+  color: #CC9933 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-CC9933, selected, focus) {
+  -moz-border-top-colors: #CC9933 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #CC9933 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #CC9933 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #CC9933 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(204, 153, 51, .28),
+  rgba(204, 153, 51, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-996633){
+  color: #996633 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-996633, selected, focus) {
+  -moz-border-top-colors: #996633 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #996633 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #996633 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #996633 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(153, 102, 51, .28),
+  rgba(153, 102, 51, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-663333){
+  color: #663333 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-663333, selected, focus) {
+  -moz-border-top-colors: #663333 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #663333 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #663333 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #663333 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(102, 51, 51, .28), rgba(102, 51, 51, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FFFFCC){
+  color: #FFFFCC !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FFFFCC, selected, focus) {
+  -moz-border-top-colors: #FFFFCC rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #FFFFCC rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #FFFFCC rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #FFFFCC rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(255, 255, 204, .28),
+  rgba(255, 255, 204, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FFFF33){
+  color: #FFFF33 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FFFF33, selected, focus) {
+  -moz-border-top-colors: #FFFF33 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #FFFF33 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #FFFF33 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #FFFF33 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(255, 255, 51, .28),
+  rgba(255, 255, 51, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FFFF00){
+  color: #FFFF00 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FFFF00, selected, focus) {
+  -moz-border-top-colors: #FFFF00 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #FFFF00 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #FFFF00 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #FFFF00 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(255, 255, 0, .28), rgba(255, 255, 0, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FFCC00){
+  color: #FFCC00 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FFCC00, selected, focus) {
+  -moz-border-top-colors: #FFCC00 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #FFCC00 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #FFCC00 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #FFCC00 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(255, 204, 0, .28), rgba(255, 204, 0, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-999900){
+  color: #999900 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-999900, selected, focus) {
+  -moz-border-top-colors: #999900 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #999900 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #999900 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #999900 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(153, 153, 0, .28), rgba(153, 153, 0, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-666600){
+  color: #666600 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-666600, selected, focus) {
+  -moz-border-top-colors: #666600 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #666600 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #666600 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #666600 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(102, 102, 0, .28), rgba(102, 102, 0, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-333300){
+  color: #333300 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-333300, selected, focus) {
+  -moz-border-top-colors: #333300 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #333300 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #333300 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #333300 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(51, 51, 0, .28), rgba(51, 51, 0, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-99FF99){
+  color: #99FF99 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-99FF99, selected, focus) {
+  -moz-border-top-colors: #99FF99 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #99FF99 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #99FF99 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #99FF99 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(153, 255, 153, .28),
+  rgba(153, 255, 153, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-66FF99){
+  color: #66FF99 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-66FF99, selected, focus) {
+  -moz-border-top-colors: #66FF99 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #66FF99 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #66FF99 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #66FF99 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(102, 255, 153, .28),
+  rgba(102, 255, 153, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-33FF33){
+  color: #33FF33 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-33FF33, selected, focus) {
+  -moz-border-top-colors: #33FF33 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #33FF33 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #33FF33 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #33FF33 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(51, 255, 51, .28), rgba(51, 255, 51, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-33CC00){
+  color: #33CC00 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-33CC00, selected, focus) {
+  -moz-border-top-colors: #33CC00 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #33CC00 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #33CC00 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #33CC00 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(51, 204, 0, .28), rgba(51, 204, 0, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-009900){
+  color: #009900 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-009900, selected, focus) {
+  -moz-border-top-colors: #009900 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #009900 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #009900 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #009900 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(0, 153, 0, .28), rgba(0, 153, 0, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-006600){
+  color: #006600 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-006600, selected, focus) {
+  -moz-border-top-colors: #006600 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #006600 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #006600 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #006600 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(0, 102, 0, .28), rgba(0, 102, 0, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-003300){
+  color: #003300 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-003300, selected, focus) {
+  -moz-border-top-colors: #003300 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #003300 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #003300 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #003300 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(0, 51, 0, .28), rgba(0, 51, 0, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-99FFFF){
+  color: #99FFFF !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-99FFFF, selected, focus) {
+  -moz-border-top-colors: #99FFFF rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #99FFFF rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #99FFFF rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #99FFFF rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(153, 255, 255, .28),
+  rgba(153, 255, 255, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-33FFFF){
+  color: #33FFFF !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-33FFFF, selected, focus) {
+  -moz-border-top-colors: #33FFFF rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #33FFFF rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #33FFFF rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #33FFFF rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(51, 255, 255, .28),
+  rgba(51, 255, 255, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-66CCCC){
+  color: #66CCCC !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-66CCCC, selected, focus) {
+  -moz-border-top-colors: #66CCCC rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #66CCCC rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #66CCCC rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #66CCCC rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(102, 204, 204, .28),
+  rgba(102, 204, 204, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-00CCCC){
+  color: #00CCCC !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-00CCCC, selected, focus) {
+  -moz-border-top-colors: #00CCCC rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #00CCCC rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #00CCCC rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #00CCCC rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(0, 204, 204, .28), rgba(0, 204, 204, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-339999){
+  color: #339999 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-339999, selected, focus) {
+  -moz-border-top-colors: #339999 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #339999 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #339999 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #339999 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(51, 153, 153, .28),
+  rgba(51, 153, 153, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-336666){
+  color: #336666 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-336666, selected, focus) {
+  -moz-border-top-colors: #336666 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #336666 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #336666 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #336666 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(51, 102, 102, .28),
+  rgba(51, 102, 102, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-003333){
+  color: #003333 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-003333, selected, focus) {
+  -moz-border-top-colors: #003333 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #003333 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #003333 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #003333 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(0, 51, 51, .28), rgba(0, 51, 51, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-CCFFFF){
+  color: #CCFFFF !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-CCFFFF, selected, focus) {
+  -moz-border-top-colors: #CCFFFF rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #CCFFFF rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #CCFFFF rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #CCFFFF rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(204, 255, 255, .28),
+  rgba(204, 255, 255, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-66FFFF){
+  color: #66FFFF !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-66FFFF, selected, focus) {
+  -moz-border-top-colors: #66FFFF rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #66FFFF rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #66FFFF rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #66FFFF rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(102, 255, 255, .28),
+  rgba(102, 255, 255, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-33CCFF){
+  color: #33CCFF !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-33CCFF, selected, focus) {
+  -moz-border-top-colors: #33CCFF rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #33CCFF rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #33CCFF rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #33CCFF rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(51, 204, 255, .28),
+  rgba(51, 204, 255, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-3366FF){
+  color: #3366FF !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-3366FF, selected, focus) {
+  -moz-border-top-colors: #3366FF rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #3366FF rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #3366FF rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #3366FF rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(51, 102, 255, .28),
+  rgba(51, 102, 255, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-3333FF){
+  color: #3333FF !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-3333FF, selected, focus) {
+  -moz-border-top-colors: #3333FF rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #3333FF rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #3333FF rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #3333FF rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(51, 51, 255, .28), rgba(51, 51, 255, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-000099){
+  color: #000099 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-000099, selected, focus) {
+  -moz-border-top-colors: #000099 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #000099 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #000099 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #000099 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(0, 0, 153, .28), rgba(0, 0, 153, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-000066){
+  color: #000066 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-000066, selected, focus) {
+  -moz-border-top-colors: #000066 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #000066 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #000066 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #000066 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(0, 0, 102, .28), rgba(0, 0, 102, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-CCCCFF){
+  color: #CCCCFF !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-CCCCFF, selected, focus) {
+  -moz-border-top-colors: #CCCCFF rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #CCCCFF rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #CCCCFF rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #CCCCFF rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(204, 204, 255, .28),
+  rgba(204, 204, 255, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-9999FF){
+  color: #9999FF !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-9999FF, selected, focus) {
+  -moz-border-top-colors: #9999FF rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #9999FF rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #9999FF rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #9999FF rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(153, 153, 255, .28),
+  rgba(153, 153, 255, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-6666CC){
+  color: #6666CC !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-6666CC, selected, focus) {
+  -moz-border-top-colors: #6666CC rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #6666CC rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #6666CC rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #6666CC rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(102, 102, 204, .28),
+  rgba(102, 102, 204, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-6633FF){
+  color: #6633FF !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-6633FF, selected, focus) {
+  -moz-border-top-colors: #6633FF rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #6633FF rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #6633FF rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #6633FF rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(102, 51, 255, .28),
+  rgba(102, 51, 255, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-6600CC){
+  color: #6600CC !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-6600CC, selected, focus) {
+  -moz-border-top-colors: #6600CC rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #6600CC rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #6600CC rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #6600CC rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(102, 0, 204, .28), rgba(102, 0, 204, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-333399){
+  color: #333399 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-333399, selected, focus) {
+  -moz-border-top-colors: #333399 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #333399 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #333399 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #333399 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(51, 51, 153, .28), rgba(51, 51, 153, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-330099){
+  color: #330099 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-330099, selected, focus) {
+  -moz-border-top-colors: #330099 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #330099 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #330099 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #330099 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(51, 0, 153, .28), rgba(51, 0, 153, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FFCCFF){
+  color: #FFCCFF !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FFCCFF, selected, focus) {
+  -moz-border-top-colors: #FFCCFF rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #FFCCFF rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #FFCCFF rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #FFCCFF rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(255, 204, 255, .28),
+  rgba(255, 204, 255, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FF99FF){
+  color: #FF99FF !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FF99FF, selected, focus) {
+  -moz-border-top-colors: #FF99FF rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #FF99FF rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #FF99FF rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #FF99FF rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(255, 153, 255, .28),
+  rgba(255, 153, 255, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-CC66CC){
+  color: #CC66CC !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-CC66CC, selected, focus) {
+  -moz-border-top-colors: #CC66CC rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #CC66CC rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #CC66CC rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #CC66CC rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(204, 102, 204, .28),
+  rgba(204, 102, 204, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-CC33CC){
+  color: #CC33CC !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-CC33CC, selected, focus) {
+  -moz-border-top-colors: #CC33CC rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #CC33CC rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #CC33CC rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #CC33CC rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(204, 51, 204, .28),
+  rgba(204, 51, 204, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-993399){
+  color: #993399 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-993399, selected, focus) {
+  -moz-border-top-colors: #993399 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #993399 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #993399 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #993399 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(153, 51, 153, .28),
+  rgba(153, 51, 153, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-663366){
+  color: #663366 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-663366, selected, focus) {
+  -moz-border-top-colors: #663366 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #663366 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #663366 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #663366 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(102, 51, 102, .28),
+  rgba(102, 51, 102, .5)) !important;
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-330033){
+  color: #330033 !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-330033, selected, focus) {
+  -moz-border-top-colors: #330033 rgba(255, 255, 255, .4) !important;
+  -moz-border-right-colors: #330033 rgba(255, 255, 255, .4) !important;
+  -moz-border-left-colors: #330033 rgba(255, 255, 255, .4) !important;
+  -moz-border-bottom-colors: #330033 rgba(255, 255, 255, .6) !important;
+  background: linear-gradient(rgba(51, 0, 51, .28), rgba(51, 0, 51, .5)) !important;
+}
