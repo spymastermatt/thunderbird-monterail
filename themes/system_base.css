@@ -1,0 +1,230 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+@font-face {
+    font-family: 'LightSans';
+    src: url('../fonts/encodesansnarrow-light.woff2') format('woff2'),
+         url('../fonts/encodesansnarrow-light.woff') format('woff'),
+         url('../fonts/encodesansnarrow-light.ttf') format('truetype'),
+         url('../fonts/encodesansnarrow-light.svg#encode_sans_narrowlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+	--system-font: initial;
+	--light-sans-font: LightSans;
+	--default-font: var(--light-sans-font);
+}
+
+* {
+	font-family: var(--default-font);
+}
+
+#mail-toolbar-menubar2,
+#mail-bar3
+#MsgHeadersToolbar,
+#addrbook-toolbar-menubar2,
+#ab-bar2,
+#FormatToolbar {
+	-moz-appearance: none !important;
+	border: none !important;
+}
+
+/*@media(-moz-windows-default-theme: 0) {
+	.menubar-text {
+		color: var(--menu-text-color) !important;
+	}
+}*/
+
+toolbar > toolbarbutton {
+	margin-right: 10px !important;
+	margin-left: 10px !important;
+}
+
+box, hbox, vbox, toolbox {
+	box-shadow: none !important;
+}
+
+splitter {
+	border-color: rgba(127,127,127,0.25) !important;
+}
+
+/*.mail-toolbox::after,
+.contentTabToolbox::after {
+  content: "";
+  display: none !important;
+  height: 0px !important;
+}*/
+
+
+/****** Folder Tree *****/
+treechildren:-moz-tree-twisty {
+	width: 12px !important;
+	-moz-image-region: rect(0px 12px 12px 0px) !important;
+	-moz-appearance: none !important;
+	list-style-type: image !important;
+}
+
+#folderTree {
+	-moz-appearance: none !important;
+	/*color: var(--folder-tree-text-color) !important;
+	background: var(--folder-tree-background-color) !important;*/
+}
+
+#folderPaneCols > hbox, #folderTree > treechildren::-moz-tree-row, .tree-scrollable-columns {
+	-moz-appearance: none !important;
+	/*color: inherit !important;
+	background: none !important;*/
+}
+
+#folderTree > hbox {
+	margin-top: 30px !important;
+}
+
+#folderTree > treechildren::-moz-tree-row {
+	margin-top: var(--folder-tree-item-space-between) !important;
+}
+
+#folderTree > treechildren::-moz-tree-row {
+	height: var(--folder-tree-row-height) !important;
+}
+
+#folderTree > treechildren::-moz-tree-row(selected) {
+	border: none !important;
+	/*background: var(--folder-tree-highlight-background-color) !important;*/
+}
+
+/*#folderTree > treechildren::-moz-tree-cell-text(selected) {
+	color: var(--folder-tree-highlight-text-color) !important;
+}*/
+
+/***** Thread tree *****/
+/*#threadTree {
+	background: var(--message-list-background-color) !important;
+}*/
+
+#threadTree > treechildren::-moz-tree-row {
+	height: var(--message-list-row-height) !important;
+	border: none !important;
+	/*background: var(--message-list-background-color) !important;*/
+	border-bottom: 1px solid rgba(127,127,127,0.2) !important;
+}
+
+/*#threadTree > treechildren::-moz-tree-cell-text {
+	color: var(--message-list-text-color) !important;
+}*/
+
+#threadTree > treechildren::-moz-tree-row(selected) {
+	border: none !important;
+	/*background: var(--message-list-highlight-background-color) !important;*/
+}
+
+#threadTree > treechildren::-moz-tree-cell-text(selected) {
+	/*color: var(--message-list-highlight-text-color) !important;*/
+}
+
+#threadCols treecol, #threadCols treecolpicker {
+	-moz-appearance: none !important;
+	background: var(--message-list-header-background-color) !important;
+	color: var(--message-list-header-text-color) !important;
+	border: none !important;
+	border-left: 1px solid rgba(0,0,0,0.2) !important;
+	padding: 3px !important;
+	min-width: 21px !important;
+}
+
+#threadCols {
+	background: var(--message-list-header-background-color) !important;
+	border-bottom: 1px solid rgba(0,0,0,0.2) !important;
+	border-right: 1px solid rgba(0,0,0,0.2) !important;
+}
+
+#threadPane {
+	-moz-appearance: none !important;
+}
+
+scrollbar {
+	margin-right: 5px !important;
+	margin-top: 5px !important;
+	margin-bottom: 5px !important;
+	width: 10px !important;
+	max-width:10px !important;
+	-moz-appearance: none !important;
+	background: none !important;
+	border: none !important;
+}
+
+srollbarbutton {
+	width: 10px !important;
+	max-width:10px !important;
+}	
+
+slider {
+	width: 10px !important;
+	max-width:10px !important;
+	-moz-appearance: none !important;
+	background: none !important;
+	border: none !important;
+}
+
+thumb {
+	width: 10px !important;
+	max-width:10px !important;
+	-moz-appearance: none !important;
+	min-height: 100px !important;
+	border: none !important;
+	/*background: var(--scrollbar-thumb-color) !important;*/
+}
+
+thumb:hover {
+	background: var(--scrollbar-thumb-hover-color) !important;
+}
+
+/*#msgHeaderView {
+	color: var(--headers-text-color) !important;
+	background-color: var(--headers-background-color) !important;
+	border-bottom: 1px solid rgba(0,0,0,0.25) !important;
+}*/
+
+.msgHeaderView-button {
+	min-width: 0px !important;
+	/*border-color: transparent !important;
+	background-color: transparent !important;*/
+	margin: 0px !important;
+}
+
+.msgHeaderView-button:hover {
+	border-color: rgba(0,0,0,0.25) !important;
+}
+
+.msgHeaderView-button > label {
+	display:none;
+}
+
+.msgHeaderView-button {
+	margin: 2px !important;
+}
+
+#expandedHeader2Rows row {
+	display: block !important;
+}
+
+#expandedHeaderRows row *, #expandedHeader2Rows row * {
+	color: var(--headers-text-color) !important;
+}
+
+#expandedsubjectLabel, #expandedfromLabel {
+	display: none !important;
+}
+
+#expandedHeader2Rows #expandedreply-toRow {
+	display: none !important;
+}
+	
+#expandedsubjectBox .headerValue {
+	font-size: var(--subject-line-font-size) !important;
+}
+
+.emailStar {
+	margin-inline-start: 2px !important;
+}
