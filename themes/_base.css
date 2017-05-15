@@ -107,6 +107,12 @@ treechildren:-moz-tree-twisty {
 	color: var(--folder-tree-highlight-text-color) !important;
 }
 
+#folderTree > treechildren::-moz-tree-cell-text(folderNameCol, newMessages-true),
+#folderTree > treechildren::-moz-tree-cell-text(folderNameCol, closed, subfoldersHaveUnreadMessages-true) {
+	color: inherit !important;
+	font-style: italic !important;
+}
+
 /***** Thread tree *****/
 #threadTree {
 	background: var(--message-list-background-color) !important;
