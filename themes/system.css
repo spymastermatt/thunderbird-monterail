@@ -9,8 +9,8 @@
 
 /* Select icon theme (leave commented to use default for the selected theme)*/
 /* @import "../icons/lightIcons.css"; /*For dark Folder Tree and Message List*/
-@import "../icons/lightDarkIcons.css"; /*For dark Folder Tree, with a light Message List*/
-/* @import "../icons/darkIcons.css"; /*For light Folder Tree and Message List*/
+/* @import "../icons/lightDarkIcons.css"; /*For dark Folder Tree, with a light Message List*/
+@import "../icons/darkIcons.css"; /*For light Folder Tree and Message List*/
 
 @import "../tweaks/tag.css";
 /**** Variables: Uncomment and Edit these for easy customisation ****/
@@ -28,7 +28,7 @@
   
   /*---- Folder Tree ----*/
   --folder-tree-background-color: none;
-  --folder-tree-text-color: -moz-menubartext;
+  --folder-tree-text-color: default;
   --folder-tree-row-height: 25px;
   --folder-tree-highlight-background-color: var(--tree-row-highlight-background-color);
   --folder-tree-highlight-text-color: var(--tree-row-highlight-text-color);
@@ -54,7 +54,3 @@
 }
 
 /******************************************************/
-
-#folderTree {
-	-moz-appearance: menubar !important;
-}

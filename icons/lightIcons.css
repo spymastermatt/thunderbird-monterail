@@ -43,7 +43,7 @@ treechildren::-moz-tree-image(junkStatusCol, junk) { list-style-image: url("mess
 treechildren::-moz-tree-image(junkStatusCol, notjunk) { list-style-image: url("message-list/flame-empty.svg") !important; }
 
 /******** Message view reply etc *********/
-treechildren::-moz-tree-image(subjectCol) {
+treechildren::-moz-tree-image(threadCol) {
   -moz-margin-end: 2px;
   list-style-image: url("message-list/thread-light.png") !important;
 }

@@ -14,6 +14,7 @@
 	--system-font: initial;
 	--light-sans-font: LightSans;
 	--default-font: var(--light-sans-font);
+	--folder-tree-appearance: none;
 }
 
 * {
@@ -75,7 +76,7 @@ treechildren:-moz-tree-twisty {
 }
 
 #folderTree {
-	-moz-appearance: none !important;
+	-moz-appearance: var(--folder-tree-appearance, none) !important;
 	color: var(--folder-tree-text-color) !important;
 	background: var(--folder-tree-background-color) !important;
 }
@@ -138,13 +139,29 @@ treechildren:-moz-tree-twisty {
 	color: var(--message-list-highlight-text-color) !important;
 }
 
-#threadCols treecol, #threadCols treecolpicker {
+#threadCols, #threadCols treecol, #threadCols treecolpicker {
 	-moz-appearance: none !important;
 	background: var(--message-list-header-background-color) !important;
+}
+
+#threadCols treecol[sortDirection="ascending"] .treecol-sortdirection {
+	-moz-appearance: button-arrow-up !important;
+}
+
+#threadCols treecol[sortDirection="descending"] .treecol-sortdirection {
+	-moz-appearance: button-arrow-down !important;
+}
+
+#threadCols treecol, #threadCols treecolpicker {
 	color: var(--message-list-header-text-color) !important;
 	border: none !important;
 	padding: 3px !important;
-	min-width: 22px !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	margin-top: 3px !important;
+	margin-bottom: 3px !important;
+	border-left: 1px solid rgba(127,127,127,0.4) !important;
+	min-width: 21px !important;
 }
 
 #threadPane {
