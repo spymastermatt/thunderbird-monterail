@@ -5,41 +5,34 @@
  * http://www.omgubuntu.co.uk/2017/04/stunning-thunderbird-redesign-mockup - For alerting me to the beautiful mockup by monterail.com
 */
 
-@import "_base.css";
+@import "system_base.css";
 
-/* Select icon theme (leave commented to use default for the selected theme)*/
+/* Icon theme */
 /* @import "../icons/lightIcons.css"; /*For dark Folder Tree and Message List*/
-@import "../icons/lightDarkIcons.css"; /*For dark Folder Tree, with a light Message List*/
-/* @import "../icons/darkIcons.css"; /*For light Folder Tree and Message List*/
+/* @import "../icons/lightDarkIcons.css"; /*For dark Folder Tree, with a light Message List*/
+@import "../icons/darkIcons.css"; /*For light Folder Tree and Message List*/
 
-/**** Variables: Uncomment and Edit these for easy customisation ****/
+#threadCols {
+	padding-left: 4px !important;
+	padding-right: 0px !important;
+}
+
+/**** Variables ****/
 
 :root {
   /*---- General Options ----*/
-  --menu-text-color: MenuText;
+  --default-font: var(--system-font);
   /*** These highlight colors are used if more specific ones aren't specified below ***/
   --highlight-color: Highlight;
-  --highlight-text-color: HighlightText;
-  
-  /*---- Tree Views (Folder Tree/Message List) General Options ----*/
-  --tree-row-highlight-background-color: var(--highlight-color);
-  --tree-row-highlight-text-color: var(--highlight-text-color);
   
   /*---- Folder Tree ----*/
-  --folder-tree-background-color: none;
-  --folder-tree-text-color: -moz-menubartext;
+  --folder-tree-item-space-between: 5px;
   --folder-tree-row-height: 25px;
-  --folder-tree-highlight-background-color: var(--tree-row-highlight-background-color);
-  --folder-tree-highlight-text-color: var(--tree-row-highlight-text-color);
   
   /*---- Message List ----*/
+  --message-list-row-height: 40px;
   --message-list-header-background-color: -moz-dialog;
   --message-list-header-text-color: WindowText;
-  --message-list-background-color: -moz-default-background-color;
-  --message-list-text-color: WindowText;
-  --message-list-row-height: 40px;
-  --message-list-highlight-background-color: var(--tree-row-highlight-background-color);
-  --message-list-highlight-text-color: var(--tree-row-highlight-text-color);
   
   /*---- Scollbar ----*/
   --scrollbar-thumb-color: rgba(127,127,127,0.5);
@@ -47,13 +40,5 @@
   
   /*---- Message Headers (To/Subject/From etc) ----*/
   --subject-line-font-size: 150%;
-  --headers-background-color: transparent;
-  --headers-text-color: WindowText;
   
-}
-
-/******************************************************/
-
-#folderTree {
-	-moz-appearance: menubar !important;
 }
