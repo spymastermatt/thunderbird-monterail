@@ -86,7 +86,7 @@
 	color: var(--monterail-light-text-color) !important;
 }
 
-.mail-toolbox .chromeclass-toolbar {
+.mail-toolbox {
 	-moz-appearance: none !important;
 	background: var(--monterail-light-background) !important;
 }
