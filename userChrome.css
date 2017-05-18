@@ -14,6 +14,9 @@
 /******************************************************************/
 /******************************************************************/
 
+/* Uncommment to use the dark folder pane style when using the system theme with dark menus */
+@import "tweaks/dark-folder-pane.css";
+
 /* Select icon theme (leave commented to use default for the selected theme)*/
 /* @import "icons/lightIcons.css"; /*For dark Folder Tree and Message List*/
 /* @import "icons/lightDarkIcons.css"; /*For dark Folder Tree, with a light Message List*/
