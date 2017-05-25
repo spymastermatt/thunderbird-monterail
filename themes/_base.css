@@ -76,7 +76,7 @@ treechildren:-moz-tree-twisty {
 }
 
 #folderTree {
-	-moz-appearance: var(--folder-tree-appearance, none) !important;
+	-moz-appearance: none !important;
 	color: var(--folder-tree-text-color) !important;
 	background: var(--folder-tree-background-color) !important;
 }

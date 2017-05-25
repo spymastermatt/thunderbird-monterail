@@ -54,3 +54,8 @@
 }
 
 /******************************************************/
+
+
+#folderTree {
+	-moz-appearance: var(--folder-tree-appearance, none) !important;
+}
