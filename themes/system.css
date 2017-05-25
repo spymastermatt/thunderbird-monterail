@@ -28,6 +28,7 @@
   /*---- Folder Tree ----*/
   --folder-tree-background-color: none;
   --folder-tree-text-color: default;
+  --dark-folder-tree-text-color: var(--folder-tree-text-color);
   --folder-tree-row-height: 25px;
   --folder-tree-highlight-background-color: var(--tree-row-highlight-background-color);
   --folder-tree-highlight-text-color: var(--tree-row-highlight-text-color);
@@ -57,4 +58,5 @@
 
 #folderTree {
 	-moz-appearance: var(--folder-tree-appearance, none) !important;
+	color: var(--dark-folder-tree-text-color) !important;
 }

@@ -1,6 +1,6 @@
 @import "../icons/lightDarkIcons.css"; /*For dark Folder Tree, with a light Message List*/
 
 :root {
-  --folder-tree-text-color: -moz-menubartext;
+  --dark-folder-tree-text-color: -moz-menubartext;
   --folder-tree-appearance: menubar;
 }
