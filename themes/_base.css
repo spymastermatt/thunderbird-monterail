@@ -56,7 +56,7 @@ splitter {
   display: none !important;
   height: 0px !important;
 }
-	
+
 
 /****** General Tree Views *****/
 treechildren::-moz-tree-row(selected) {
@@ -116,18 +116,18 @@ treechildren:-moz-tree-twisty {
 
 /***** Thread tree *****/
 #threadTree {
-	background: var(--message-list-background-color) !important;
+	/*background: var(--message-list-background-color) !important;*/
 }
 
 #threadTree > treechildren::-moz-tree-row {
 	height: var(--message-list-row-height) !important;
 	border: none !important;
-	background: var(--message-list-background-color) !important;
+	/*background: var(--message-list-background-color) !important;*/
 	border-bottom: 1px solid rgba(127,127,127,0.2) !important;
 }
 
 #threadTree > treechildren::-moz-tree-cell-text {
-	color: var(--message-list-text-color) !important;
+	/*color: var(--message-list-text-color) !important;*/
 }
 
 #threadTree > treechildren::-moz-tree-row(selected) {
@@ -180,7 +180,7 @@ scrollbar {
 srollbarbutton {
 	width: 10px !important;
 	max-width:10px !important;
-}	
+}
 
 slider {
 	width: 10px !important;
@@ -239,7 +239,7 @@ thumb:hover {
 #expandedHeader2Rows #expandedreply-toRow {
 	display: none !important;
 }
-	
+
 #expandedsubjectBox .headerValue {
 	font-size: var(--subject-line-font-size) !important;
 }
