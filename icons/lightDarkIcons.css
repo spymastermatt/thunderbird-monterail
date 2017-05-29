@@ -87,7 +87,7 @@ treechildren::-moz-tree-image(folderNameCol, specialFolder-Trash) { list-style-i
 
 treechildren::-moz-tree-image(folderNameCol, specialFolder-Archive) { list-style-image: url("folder-pane/archive.svg") !important; }
 
-/*.folderMenuItem[SpecialFolder="Virtual"] { list-style-image: url("folder-pane/.svg") !important; }*/
+treechildren::-moz-tree-image(folderNameCol, specialFolder-Virtual) { list-style-image: url("folder-pane/folder-search.svg") !important; }
 
 /** IMAP/POP/movemail account nodes */
 treechildren::-moz-tree-image(folderNameCol, isServer-true) { list-style-image: url("folder-pane/email-account-light.svg") !important; }
