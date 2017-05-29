@@ -89,7 +89,7 @@
 	background: var(--light-light-background) !important;
 }
 
-.mail-toolbox, .chromeclass-toolbar, .chromeclass-toolbar * {
+.mail-toolbox .chromeclass-toolbar, .mail-toolbox .chromeclass-toolbar > *, .mail-toolbox .chromeclass-toolbar .toolbarbutton-text {
 	color: var(--light-light-text-color) !important;
 }
 

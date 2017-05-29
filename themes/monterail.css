@@ -94,7 +94,7 @@
 	background: var(--monterail-light-background) !important;
 }
 
-.mail-toolbox .chromeclass-toolbar, .mail-toolbox .chromeclass-toolbar * {
+.mail-toolbox .chromeclass-toolbar, .mail-toolbox .chromeclass-toolbar > *, .mail-toolbox .chromeclass-toolbar .toolbarbutton-text {
 	color: var(--monterail-text-color) !important;
 }
 
