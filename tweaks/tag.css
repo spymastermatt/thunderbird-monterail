@@ -1,0 +1,842 @@
+/*
+
+	Fix for tag in thread container
+
+*/
+.flagColumnHeader, #threadTree > treechildren::-moz-tree-cell(flaggedCol) {
+	width: 30px;
+	padding-left: 5px !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-000000) {
+	color: #000000 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-000000, flaggedCol) {
+	border-left: 5px solid #000000 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-000000, selected, focus) {
+    background: #000000 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-000066) {
+	color: #000066 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-000066, flaggedCol) {
+	border-left: 5px solid #000066 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-000066, selected, focus) {
+    background: #000066 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-000099) {
+	color: #000099 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-000099, flaggedCol) {
+	border-left: 5px solid #000099 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-000099, selected, focus) {
+    background: #000099 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-003300) {
+	color: #003300 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-003300, flaggedCol) {
+	border-left: 5px solid #003300 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-003300, selected, focus) {
+    background: #003300 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-003333) {
+	color: #003333 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-003333, flaggedCol) {
+	border-left: 5px solid #003333 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-003333, selected, focus) {
+    background: #003333 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-006600) {
+	color: #006600 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-006600, flaggedCol) {
+	border-left: 5px solid #006600 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-006600, selected, focus) {
+    background: #006600 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-009900) {
+	color: #009900 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-009900, flaggedCol) {
+	border-left: 5px solid #009900 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-009900, selected, focus) {
+    background: #009900 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-00CCCC) {
+	color: #00CCCC !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-00CCCC, flaggedCol) {
+	border-left: 5px solid #00CCCC !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-00CCCC, selected, focus) {
+    background: #00CCCC !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-330000) {
+	color: #330000 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-330000, flaggedCol) {
+	border-left: 5px solid #330000 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-330000, selected, focus) {
+    background: #330000 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-330033) {
+	color: #330033 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-330033, flaggedCol) {
+	border-left: 5px solid #330033 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-330033, selected, focus) {
+    background: #330033 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-330099) {
+	color: #330099 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-330099, flaggedCol) {
+	border-left: 5px solid #330099 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-330099, selected, focus) {
+    background: #330099 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-333300) {
+	color: #333300 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-333300, flaggedCol) {
+	border-left: 5px solid #333300 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-333300, selected, focus) {
+    background: #333300 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-333333) {
+	color: #333333 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-333333, flaggedCol) {
+	border-left: 5px solid #333333 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-333333, selected, focus) {
+    background: #333333 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-333399) {
+	color: #333399 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-333399, flaggedCol) {
+	border-left: 5px solid #333399 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-333399, selected, focus) {
+    background: #333399 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-3333FF) {
+	color: #3333FF !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-3333FF, flaggedCol) {
+	border-left: 5px solid #3333FF !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-3333FF, selected, focus) {
+    background: #3333FF !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-336666) {
+	color: #336666 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-336666, flaggedCol) {
+	border-left: 5px solid #336666 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-336666, selected, focus) {
+    background: #336666 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-3366FF) {
+	color: #3366FF !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-3366FF, flaggedCol) {
+	border-left: 5px solid #3366FF !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-3366FF, selected, focus) {
+    background: #3366FF !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-339999) {
+	color: #339999 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-339999, flaggedCol) {
+	border-left: 5px solid #339999 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-339999, selected, focus) {
+    background: #339999 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-33CC00) {
+	color: #33CC00 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-33CC00, flaggedCol) {
+	border-left: 5px solid #33CC00 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-33CC00, selected, focus) {
+    background: #33CC00 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-33CCFF) {
+	color: #33CCFF !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-33CCFF, flaggedCol) {
+	border-left: 5px solid #33CCFF !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-33CCFF, selected, focus) {
+    background: #33CCFF !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-33FF33) {
+	color: #33FF33 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-33FF33, flaggedCol) {
+	border-left: 5px solid #33FF33 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-33FF33, selected, focus) {
+    background: #33FF33 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-33FFFF) {
+	color: #33FFFF !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-33FFFF, flaggedCol) {
+	border-left: 5px solid #33FFFF !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-33FFFF, selected, focus) {
+    background: #33FFFF !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-660000) {
+	color: #660000 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-660000, flaggedCol) {
+	border-left: 5px solid #660000 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-660000, selected, focus) {
+    background: #660000 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-6600CC) {
+	color: #6600CC !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-6600CC, flaggedCol) {
+	border-left: 5px solid #6600CC !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-6600CC, selected, focus) {
+    background: #6600CC !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-663300) {
+	color: #663300 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-663300, flaggedCol) {
+	border-left: 5px solid #663300 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-663300, selected, focus) {
+    background: #663300 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-663333) {
+	color: #663333 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-663333, flaggedCol) {
+	border-left: 5px solid #663333 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-663333, selected, focus) {
+    background: #663333 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-663366) {
+	color: #663366 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-663366, flaggedCol) {
+	border-left: 5px solid #663366 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-663366, selected, focus) {
+    background: #663366 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-6633FF) {
+	color: #6633FF !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-6633FF, flaggedCol) {
+	border-left: 5px solid #6633FF !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-6633FF, selected, focus) {
+    background: #6633FF !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-666600) {
+	color: #666600 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-666600, flaggedCol) {
+	border-left: 5px solid #666600 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-666600, selected, focus) {
+    background: #666600 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-666666) {
+	color: #666666 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-666666, flaggedCol) {
+	border-left: 5px solid #666666 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-666666, selected, focus) {
+    background: #666666 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-6666CC) {
+	color: #6666CC !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-6666CC, flaggedCol) {
+	border-left: 5px solid #6666CC !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-6666CC, selected, focus) {
+    background: #6666CC !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-66CCCC) {
+	color: #66CCCC !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-66CCCC, flaggedCol) {
+	border-left: 5px solid #66CCCC !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-66CCCC, selected, focus) {
+    background: #66CCCC !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-66FF99) {
+	color: #66FF99 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-66FF99, flaggedCol) {
+	border-left: 5px solid #66FF99 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-66FF99, selected, focus) {
+    background: #66FF99 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-66FFFF) {
+	color: #66FFFF !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-66FFFF, flaggedCol) {
+	border-left: 5px solid #66FFFF !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-66FFFF, selected, focus) {
+    background: #66FFFF !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-990000) {
+	color: #990000 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-990000, flaggedCol) {
+	border-left: 5px solid #990000 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-990000, selected, focus) {
+    background: #990000 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-993300) {
+	color: #993300 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-993300, flaggedCol) {
+	border-left: 5px solid #993300 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-993300, selected, focus) {
+    background: #993300 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-993399) {
+	color: #993399 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-993399, flaggedCol) {
+	border-left: 5px solid #993399 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-993399, selected, focus) {
+    background: #993399 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-996633) {
+	color: #996633 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-996633, flaggedCol) {
+	border-left: 5px solid #996633 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-996633, selected, focus) {
+    background: #996633 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-999900) {
+	color: #999900 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-999900, flaggedCol) {
+	border-left: 5px solid #999900 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-999900, selected, focus) {
+    background: #999900 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-999999) {
+	color: #999999 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-999999, flaggedCol) {
+	border-left: 5px solid #999999 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-999999, selected, focus) {
+    background: #999999 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-9999FF) {
+	color: #9999FF !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-9999FF, flaggedCol) {
+	border-left: 5px solid #9999FF !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-9999FF, selected, focus) {
+    background: #9999FF !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-99FF99) {
+	color: #99FF99 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-99FF99, flaggedCol) {
+	border-left: 5px solid #99FF99 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-99FF99, selected, focus) {
+    background: #99FF99 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-99FFFF) {
+	color: #99FFFF !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-99FFFF, flaggedCol) {
+	border-left: 5px solid #99FFFF !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-99FFFF, selected, focus) {
+    background: #99FFFF !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-C0C0C0) {
+	color: #C0C0C0 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-C0C0C0, flaggedCol) {
+	border-left: 5px solid #C0C0C0 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-C0C0C0, selected, focus) {
+    background: #C0C0C0 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-CC0000) {
+	color: #CC0000 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-CC0000, flaggedCol) {
+	border-left: 5px solid #CC0000 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-CC0000, selected, focus) {
+    background: #CC0000 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-CC33CC) {
+	color: #CC33CC !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-CC33CC, flaggedCol) {
+	border-left: 5px solid #CC33CC !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-CC33CC, selected, focus) {
+    background: #CC33CC !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-CC6600) {
+	color: #CC6600 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-CC6600, flaggedCol) {
+	border-left: 5px solid #CC6600 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-CC6600, selected, focus) {
+    background: #CC6600 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-CC66CC) {
+	color: #CC66CC !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-CC66CC, flaggedCol) {
+	border-left: 5px solid #CC66CC !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-CC66CC, selected, focus) {
+    background: #CC66CC !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-CC9933) {
+	color: #CC9933 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-CC9933, flaggedCol) {
+	border-left: 5px solid #CC9933 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-CC9933, selected, focus) {
+    background: #CC9933 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-CCCCCC) {
+	color: #CCCCCC !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-CCCCCC, flaggedCol) {
+	border-left: 5px solid #CCCCCC !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-CCCCCC, selected, focus) {
+    background: #CCCCCC !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-CCCCFF) {
+	color: #CCCCFF !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-CCCCFF, flaggedCol) {
+	border-left: 5px solid #CCCCFF !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-CCCCFF, selected, focus) {
+    background: #CCCCFF !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-CCFFFF) {
+	color: #CCFFFF !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-CCFFFF, flaggedCol) {
+	border-left: 5px solid #CCFFFF !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-CCFFFF, selected, focus) {
+    background: #CCFFFF !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FF0000) {
+	color: #FF0000 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-FF0000, flaggedCol) {
+	border-left: 5px solid #FF0000 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FF0000, selected, focus) {
+    background: #FF0000 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FF6600) {
+	color: #FF6600 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-FF6600, flaggedCol) {
+	border-left: 5px solid #FF6600 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FF6600, selected, focus) {
+    background: #FF6600 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FF6666) {
+	color: #FF6666 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-FF6666, flaggedCol) {
+	border-left: 5px solid #FF6666 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FF6666, selected, focus) {
+    background: #FF6666 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FF9900) {
+	color: #FF9900 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-FF9900, flaggedCol) {
+	border-left: 5px solid #FF9900 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FF9900, selected, focus) {
+    background: #FF9900 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FF9966) {
+	color: #FF9966 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-FF9966, flaggedCol) {
+	border-left: 5px solid #FF9966 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FF9966, selected, focus) {
+    background: #FF9966 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FF99FF) {
+	color: #FF99FF !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-FF99FF, flaggedCol) {
+	border-left: 5px solid #FF99FF !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FF99FF, selected, focus) {
+    background: #FF99FF !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FFCC00) {
+	color: #FFCC00 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-FFCC00, flaggedCol) {
+	border-left: 5px solid #FFCC00 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FFCC00, selected, focus) {
+    background: #FFCC00 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FFCC33) {
+	color: #FFCC33 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-FFCC33, flaggedCol) {
+	border-left: 5px solid #FFCC33 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FFCC33, selected, focus) {
+    background: #FFCC33 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FFCC66) {
+	color: #FFCC66 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-FFCC66, flaggedCol) {
+	border-left: 5px solid #FFCC66 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FFCC66, selected, focus) {
+    background: #FFCC66 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FFCC99) {
+	color: #FFCC99 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-FFCC99, flaggedCol) {
+	border-left: 5px solid #FFCC99 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FFCC99, selected, focus) {
+    background: #FFCC99 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FFCCCC) {
+	color: #FFCCCC !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-FFCCCC, flaggedCol) {
+	border-left: 5px solid #FFCCCC !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FFCCCC, selected, focus) {
+    background: #FFCCCC !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FFCCFF) {
+	color: #FFCCFF !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-FFCCFF, flaggedCol) {
+	border-left: 5px solid #FFCCFF !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FFCCFF, selected, focus) {
+    background: #FFCCFF !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FFFF00) {
+	color: #FFFF00 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-FFFF00, flaggedCol) {
+	border-left: 5px solid #FFFF00 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FFFF00, selected, focus) {
+    background: #FFFF00 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FFFF33) {
+	color: #FFFF33 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-FFFF33, flaggedCol) {
+	border-left: 5px solid #FFFF33 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FFFF33, selected, focus) {
+    background: #FFFF33 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FFFF66) {
+	color: #FFFF66 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-FFFF66, flaggedCol) {
+	border-left: 5px solid #FFFF66 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FFFF66, selected, focus) {
+    background: #FFFF66 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FFFF99) {
+	color: #FFFF99 !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-FFFF99, flaggedCol) {
+	border-left: 5px solid #FFFF99 !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FFFF99, selected, focus) {
+    background: #FFFF99 !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(lc-FFFFCC) {
+	color: #FFFFCC !important;
+}
+#threadTree > treechildren::-moz-tree-cell(lc-FFFFCC, flaggedCol) {
+	border-left: 5px solid #FFFFCC !important;
+	padding-left: 0px !important;
+}
+#threadTree > treechildren::-moz-tree-row(lc-FFFFCC, selected, focus) {
+    background: #FFFFCC !important;
+}
+
+
+#threadTree > treechildren::-moz-tree-cell-text(selected, focus) {
+	color: white !important;
+}

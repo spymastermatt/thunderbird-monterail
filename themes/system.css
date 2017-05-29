@@ -1,4 +1,4 @@
-/*
+ /*
  * Huge thanks to the following for their inspiration/guidance:
  * http://www.linnhe2.free-online.co.uk/thunderbird/chrome.html - For a very comprehensive guide to userChrome.css
  * https://monterail.com/blog/2016/the-power-of-email-clients-why-did-we-redesign-thunderbird?utm_source=Thunderbird&utm_campaign=Dribbble&utm_medium=blogpost%22 - For the initial inspiration to do this 
@@ -6,6 +6,7 @@
 */
 
 @import "_base.css";
+@import "../tweaks/tag.css";
 
 /* Select icon theme (leave commented to use default for the selected theme)*/
 /* @import "../icons/lightIcons.css"; /*For dark Folder Tree and Message List*/
