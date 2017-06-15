@@ -22,12 +22,12 @@
   --monterail-white-background: white;
   --monterail-light-background: #F2F1F0;
   --monterail-text-color: #353535;
-  --monterail-light-text-color: white;
+  --monterail-light-text-color: black;
   
   /*** Set active tab background color: ***/
   --fgTabBackgroundColor: var(--monterail-light-background) !important;
   
-  --menu-text-color: White;
+  --menu-text-color: Black;
   /*** These highlight colors are used if more specific ones aren't specified below ***/
   --highlight-color: #B2F2FF;
   --highlight-text-color: var(--monterail-text-color);
