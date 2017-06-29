@@ -6,7 +6,6 @@
 */
 
 @import "_base.css";
-@import "../tweaks/tag.css";
 @import "../tweaks/square-tabs.css";
 
 @import "../icons/lightIcons.css"; /*For dark Folder Tree, with a light Message List*/
