@@ -17,7 +17,7 @@ https://monterail.com/blog/2016/the-power-of-email-clients-why-did-we-redesign-t
 To use these themes, download the source code as a zip and extract its contents to your
 thunderbird user config directory.
 
-In **Windows OS** the chrome folder must be extracted in `C:\Users\[user]\AppData\Roaming\Thunderbird\Profiles\\*[random letters and numbers\]*.default/`
+In **Windows OS** the chrome folder must be extracted in `C:\Users\[user]\AppData\Roaming\Thunderbird\Profiles\[random letters and numbers].default/`
 
 In **Linux** it must be extracted in `/home/[user]/.thunderbird/[random letters and numbers].default/`
 
