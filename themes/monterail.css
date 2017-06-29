@@ -104,7 +104,8 @@
 	color: var(--monterail-light-text-color) !important;
 }
 
-.chromeclass-toolbar menupopup * {
+menu label, menuitem label, .splitmenu-menuitem label, menucaption label,
+.chromeclass-toolbar menu label, .chromeclass-toolbar menuitem label, .chromeclass-toolbar .splitmenu-menuitem label, .chromeclass-toolbar menucaption label {
 	color: var(--monterail-text-color) !important;
 }
 
