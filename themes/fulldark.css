@@ -84,6 +84,23 @@
 	color: var(--dark-light-text-color) !important;
 }
 
+menupopup {
+	-moz-appearance: none !important;
+	background: var(--dark-light-background) !important;
+}
+
+menuseparator {
+	-moz-appearance: none !important;
+	background: var(--dark-text-color) !important;
+	border-bottom-width: 1px !important;
+	border-bottom-color: dimgrey !important;
+	border-bottom-style: solid !important;
+}
+
+#appmenuSecondaryPane {
+	border-left-color: dimgrey !important;
+}
+
 .mail-toolbox {
 	-moz-appearance: none !important;
 	background-color: var(--dark-light-background) !important;

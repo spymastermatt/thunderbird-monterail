@@ -57,6 +57,10 @@ splitter {
   height: 0px !important;
 }
 	
+menu[disabled="true"] label, menuitem[disabled="true"] label, .splitmenu-menuitem[disabled="true"] label, menucaption[disabled="true"] label,
+.chromeclass-toolbar menu[disabled="true"] label, .chromeclass-toolbar menuitem[disabled="true"] label, .chromeclass-toolbar .splitmenu-menuitem[disabled="true"] label, .chromeclass-toolbar menucaption[disabled="true"] label {
+  color: grey !important;
+}
 
 /****** General Tree Views *****/
 treechildren::-moz-tree-row(selected) {

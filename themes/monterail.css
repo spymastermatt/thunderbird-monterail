@@ -89,6 +89,23 @@
 	color: var(--monterail-light-text-color) !important;
 }
 
+menupopup {
+	-moz-appearance: none !important;
+	background: var(--monterail-light-background) !important;
+}
+
+menuseparator {
+	-moz-appearance: none !important;
+	background: var(--monterail-text-color) !important;
+	border-bottom-width: 1px !important;
+	border-bottom-color: lightgrey !important;
+	border-bottom-style: solid !important;
+}
+
+#appmenuSecondaryPane {
+	border-left-color: lightgrey !important;
+}
+
 .mail-toolbox {
 	-moz-appearance: none !important;
 	background: var(--monterail-light-background) !important;
