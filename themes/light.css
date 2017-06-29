@@ -99,6 +99,10 @@
 	color: var(--light-light-text-color) !important;
 }
 
+.chromeclass-toolbar menupopup * {
+	color: var(--light-light-text-color) !important;
+}
+
 menupopup {
 	-moz-appearance: none !important;
 	background: var(--light-light-background) !important;

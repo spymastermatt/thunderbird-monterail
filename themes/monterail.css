@@ -104,14 +104,18 @@
 	color: var(--monterail-light-text-color) !important;
 }
 
+.chromeclass-toolbar menupopup * {
+	color: var(--monterail-text-color) !important;
+}
+
 menupopup {
 	-moz-appearance: none !important;
+	color: var(--monterail-text-color) !important;
 	background: var(--monterail-light-background) !important;
 }
 
 menuseparator {
 	-moz-appearance: none !important;
-	background: var(--monterail-text-color) !important;
 	border-bottom-width: 1px !important;
 	border-bottom-color: lightgrey !important;
 	border-bottom-style: solid !important;
