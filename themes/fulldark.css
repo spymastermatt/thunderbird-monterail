@@ -86,7 +86,7 @@
 	}
 }
 
-#compose-toolbox, #compose-toolbox > *, #ab-toolbox {
+#compose-toolbox, #compose-toolbox > *, #ab-toolbox, .chromeclass-menubar{
 	-moz-appearance: none !important;
 	background: var(--dark-color) !important;
 }
@@ -98,6 +98,10 @@
 .tabmail-tab[selected="true"] .tab-content * {
 	color: var(--dark-light-text-color) !important;
 }
+
+.toolbarbutton-1, .toolbarbutton-menubutton-button, #composeToolbar2{
+     color: var(--dark-text-color) !important;
+  }
 
 menu label, menuitem label, .splitmenu-menuitem label, menucaption label,
 .chromeclass-toolbar menu label, .chromeclass-toolbar menuitem label, .chromeclass-toolbar .splitmenu-menuitem label, .chromeclass-toolbar menucaption label {
