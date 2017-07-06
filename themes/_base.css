@@ -267,3 +267,8 @@ thumb:hover {
 .emailStar {
 	margin-inline-start: 2px !important;
 }
+
+menuseparator{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
