@@ -143,6 +143,3 @@ menuseparator {
 	border-bottom: 1px solid rgba(127,127,127,0.2) !important;
 }
 
- .toolbarbutton-1, .toolbarbutton-menubutton-button, #composeToolbar2{
-     color: var(--dark-text-color) !important;
- }
