@@ -17,6 +17,8 @@
 /* ..... twisty ..... */
 treechildren:-moz-tree-twisty {	list-style-image: url("folder-pane/twisty-dark.svg") !important; padding: 0 5px !important; }
 treechildren:-moz-tree-twisty(open) { list-style-image: url("folder-pane/twisty-expanded-dark.svg") !important; padding: 0 5px !important; }
+#folderTree treechildren:-moz-tree-twisty {	list-style-image: url("folder-pane/twisty-dark.svg") !important; }
+#folderTree treechildren:-moz-tree-twisty(open) { list-style-image: url("folder-pane/twisty-expanded-dark.svg") !important; }
 
 /******* Message view icons ********/
 #folderTree treechildren::-moz-tree-image, #threadTree treechildren::-moz-tree-image {

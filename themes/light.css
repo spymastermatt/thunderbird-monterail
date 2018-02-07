@@ -33,6 +33,7 @@
 :root {
   /*---- General Options ----*/
   --light-color: #EFF0F1;
+  --dark-color: #3c3b37;
   --light-text-color: #31363B;
   --light-white-background: white;
   --light-light-background: var(--light-color);
@@ -40,10 +41,10 @@
   
   /*** Set active tab background color: ***/
   --fgTabBackgroundColor: var(--light-light-background) !important;
-  
-  --menu-text-color: var(--light-text-color);
+  --menu-text-color: var(--light-color);
+
   /*** These highlight colors are used if more specific ones aren't specified below ***/
-  --highlight-color: #3DAEE9;
+  --highlight-color: #F07746;
   --highlight-text-color: var(--light-light-text-color);
   
   /*---- Tree Views (Folder Tree/Message List) General Options ----*/
@@ -55,7 +56,7 @@
   --folder-tree-text-color: var(--light-text-color);
   --folder-tree-row-height: 25px;
   --folder-tree-highlight-background-color: var(--highlight-color);
-  --folder-tree-highlight-text-color: var(--folder-tree-text-color);
+  --folder-tree-highlight-text-color: var(--light-color);
   
   /*---- Message List ----*/
   --message-list-header-background-color: var(--light-light-background);
@@ -64,7 +65,7 @@
   --message-list-text-color: var(--light-light-text-color);
   --message-list-row-height: 40px;
   --message-list-highlight-background-color: var(--tree-row-highlight-background-color);
-  --message-list-highlight-text-color: var(--tree-row-highlight-text-color);
+  --message-list-highlight-text-color: var(--light-color);
   
   /*---- Scollbar ----*/
   --scrollbar-thumb-color: rgba(127,127,127,0.5);
@@ -82,7 +83,7 @@
 @media(-moz-windows-glass: 0) {
 	#navigation-toolbox {
 		-moz-appearance: none !important;
-		background: var(--light-color) !important;
+		background: var(--dark-color) !important;
 	}
 }
 
@@ -133,5 +134,54 @@ menuseparator {
 #mail-toolbox {
 	border: none !important;
 	border-bottom: 1px solid rgba(127,127,127,0.2) !important;
+}
+
+#mail-toolbox {
+	border: none !important;
+	border-bottom: 1px solid rgba(127,127,127,0.2) !important;
+}
+
+/*---- Titlebar button ----*/
+
+#titlebar-min {
+    list-style-image: url(chrome://messenger/skin/icons/caption-buttons.svg#minimize-white) !important;
+}
+
+#titlebar-max {
+    list-style-image: url(chrome://messenger/skin/icons/caption-buttons.svg#maximize-white) !important;
+}
+
+#titlebar-close {
+    list-style-image: url(chrome://messenger/skin/icons/caption-buttons.svg#close-white) !important;
+}
+
+#messengerWindow[sizemode="maximized"] #titlebar-max {
+    list-style-image: url(chrome://messenger/skin/icons/caption-buttons.svg#restore-white) !important;
+}
+
+/*---- Calendar & Tast button on top right header ----*/
+#calendar-tab-button, #task-tab-button{
+    background-color: #eff0f1 !important;
+}
+
+/*---- Folder close icon ----*/
+.close-icon{
+  list-style-image: url(chrome://messenger/skin/icons/caption-buttons.svg#close-white) !important;
+  -moz-image-region: rect(0px, 16px, 12px, -4px) !important;
+}
+
+.close-icon:hover{
+    list-style-image: url(chrome://global/skin/icons/close.png) !important;
+     -moz-image-region: rect(0, 40px, 20px, 20px) !important;
+}
+
+.close-icon[selected="true"]{
+    list-style-image: url(chrome://global/skin/icons/close.png) !important;
+    -moz-image-region: rect(0, 20px, 20px, 0) !important;
+}
+
+.close-icon[selected="true"]:hover{
+    list-style-image: url(chrome://global/skin/icons/close.png) !important;
+    -moz-image-region: rect(0, 40px, 20px, 20px) !important;
 }
 
