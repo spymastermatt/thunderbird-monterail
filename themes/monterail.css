@@ -100,6 +100,10 @@
 	color: var(--monterail-text-color) !important;
 }
 
+.chromeclass-toolbar, .chromeclass-toolbar * {
+	color: var(--monterail-light-text-color) !important;
+}
+
 #navigation-toolbox .menubar-text, .splitmenu-menuitem label, menucaption label, .chromeclass-toolbar menu label, .chromeclass-toolbar menuitem label, .chromeclass-toolbar .splitmenu-menuitem label, .chromeclass-toolbar menucaption label {
   color: var(--monterail-text-color) !important;
 }
@@ -139,6 +143,46 @@ menuseparator {
 	border-bottom: 1px solid rgba(127,127,127,0.2) !important;
 }
 
- .toolbarbutton-1, .toolbarbutton-menubutton-button, #composeToolbar2{
-     color: var(--dark-text-color) !important;
- }
+/*---- Titlebar button ----*/
+
+#titlebar-min {
+  list-style-image: url(chrome://messenger/skin/icons/caption-buttons.svg#minimize-white) !important;
+}
+
+#titlebar-max {
+  list-style-image: url(chrome://messenger/skin/icons/caption-buttons.svg#maximize-white) !important;
+}
+
+#titlebar-close {
+  list-style-image: url(chrome://messenger/skin/icons/caption-buttons.svg#close-white) !important;
+}
+
+#messengerWindow[sizemode="maximized"] #titlebar-max {
+  list-style-image: url(chrome://messenger/skin/icons/caption-buttons.svg#restore-white) !important;
+}
+
+/*---- Calendar & Tast button on top right header ----*/
+#calendar-tab-button, #task-tab-button{
+  background-color: #eff0f1 !important;
+}
+
+/*---- Folder close icon ----*/
+.close-icon{
+list-style-image: url(chrome://messenger/skin/icons/caption-buttons.svg#close-white) !important;
+-moz-image-region: rect(0px, 16px, 12px, -4px) !important;
+}
+
+.close-icon:hover{
+  list-style-image: url(chrome://global/skin/icons/close.png) !important;
+   -moz-image-region: rect(0, 40px, 20px, 20px) !important;
+}
+
+.close-icon[selected="true"]{
+  list-style-image: url(chrome://global/skin/icons/close.png) !important;
+  -moz-image-region: rect(0, 20px, 20px, 0) !important;
+}
+
+.close-icon[selected="true"]:hover{
+  list-style-image: url(chrome://global/skin/icons/close.png) !important;
+  -moz-image-region: rect(0, 40px, 20px, 20px) !important;
+}
