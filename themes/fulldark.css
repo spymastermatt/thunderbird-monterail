@@ -139,6 +139,8 @@ menuseparator {
 	border-bottom: 1px solid rgba(127,127,127,0.2) !important;
 }
 
+/*---- Titlebar button ----*/
+
 #titlebar-min {
     list-style-image: url(chrome://messenger/skin/icons/caption-buttons.svg#minimize-white) !important;
 }
@@ -155,3 +157,17 @@ menuseparator {
     list-style-image: url(chrome://messenger/skin/icons/caption-buttons.svg#restore-white) !important;
 }
 
+/*---- Folder close icon ----*/
+.close-icon{
+  list-style-image: url(chrome://messenger/skin/icons/caption-buttons.svg#close-white) !important;
+  -moz-image-region: rect(0px, 16px, 12px, -4px) !important;
+}
+
+.close-icon:hover{
+    list-style-image: url(chrome://global/skin/icons/close.png) !important;
+    -moz-image-region: rect(0, 40px, 20px, 20px) !important;
+}
+
+.close-icon[selected="true"]:hover{
+    -moz-image-region: rect(0, 60px, 20px, 40px) !important;
+}
