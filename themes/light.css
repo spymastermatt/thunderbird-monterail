@@ -167,7 +167,7 @@ menuseparator {
 /*---- Folder close icon ----*/
 .close-icon{
   list-style-image: url(chrome://messenger/skin/icons/caption-buttons.svg#close-white) !important;
-  -moz-image-region: rect(0px, 16px, 12px, -4px);
+  -moz-image-region: rect(0px, 16px, 12px, -4px) !important;
 }
 
 .close-icon:hover{
