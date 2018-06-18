@@ -1,4 +1,4 @@
-#What I added to spymastermatt's work
+# What I added to spymastermatt's work
 
 I added a Light Red theme, changing colors and icons, highly based on the Light theme.
 
