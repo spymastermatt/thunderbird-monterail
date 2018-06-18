@@ -126,7 +126,7 @@ treechildren::-moz-tree-image(folderNameCol, isServer-true) { list-style-image: 
 treechildren::-moz-tree-image(folderNameCol, isServer-true, selected) { list-style-image: url("folder-pane/email-account-white.svg") !important; }
 
 /* Local folders account node */
-treechildren::-moz-tree-image(folderNameCol, isServer-true, serverType-none) { list-style-image: url("folder-pane/local-account-dark.svg") !important; }
+treechildren::-moz-tree-image(folderNameCol, isServer-true, serverType-none) { list-style-image: url("folder-pane/local-account-gray.svg") !important; }
 treechildren::-moz-tree-image(folderNameCol, isServer-true, serverType-none, selected) { list-style-image: url("folder-pane/local-account-white.svg") !important; }
 
 /* News server */
