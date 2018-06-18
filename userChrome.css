@@ -17,26 +17,27 @@
 /*
  * Huge thanks to the following for their inspiration/guidance:
  * http://www.linnhe2.free-online.co.uk/thunderbird/chrome.html - For a very comprehensive guide to userChrome.css
- * https://monterail.com/blog/2016/the-power-of-email-clients-why-did-we-redesign-thunderbird?utm_source=Thunderbird&utm_campaign=Dribbble&utm_medium=blogpost%22 - For the initial inspiration to do this 
+ * https://monterail.com/blog/2016/the-power-of-email-clients-why-did-we-redesign-thunderbird?utm_source=Thunderbird&utm_campaign=Dribbble&utm_medium=blogpost%22 - For the initial inspiration to do this
  * http://www.omgubuntu.co.uk/2017/04/stunning-thunderbird-redesign-mockup - For alerting me to the beautiful mockup by monterail.com
 */
 
 /* Uncomment to use square tabs (square tabs are enabled anyway for all except system.css) */
-/* @import "tweaks/square-tabs.css"; */
+@import "tweaks/square-tabs.css";
 
 /******************************************************************/
 /*********************** SELECT THEME HERE ************************/
-@import "themes/system.css";
+@import "themes/lightRed.css";
 /******************************************************************/
 /******************************************************************/
 
 /* Uncommment to use the dark folder pane style when using the system theme with dark menus */
-@import "tweaks/dark-folder-pane.css";
+/*@import "tweaks/dark-folder-pane.css";*/
 
 /* Select icon theme (leave commented to use default for the selected theme)*/
 /* @import "icons/lightIcons.css"; /*For dark Folder Tree and Message List*/
 /* @import "icons/lightDarkIcons.css"; /*For dark Folder Tree, with a light Message List*/
-/* @import "icons/darkIcons.css"; /*For light Folder Tree and Message List*/
+/* @import "icons/lightDarkIcons.css"; /*For light Folder Tree and Message List*/
+@import "icons/darkIconsRed.css"; /*For light Folder Tree and Message List*/
 
 
 /****************************************************************************/
@@ -46,22 +47,22 @@
   /*---- General Options ----*/
   /*--default-font: var(--light-sans-font); /* Change to var(--system-font) to use your default font, or specify a font name */
   /*--menu-text-color: MenuText;*/
-  
+
   /*---- Highlight Colors - Used if more specific ones aren't specified below ----/
   /*--highlight-color: Highlight;*/
   /*--highlight-text-color: HighlightText;*/
-  
+
   /*---- Tree Views (Folder Tree/Message List) General Options ----*/
   /*--tree-row-highlight-background-color: var(--highlight-color);*/
   /*--tree-row-highlight-text-color: var(--highlight-text-color);*/
-  
+
   /*---- Folder Tree ----*/
   /*--folder-tree-background-color: Menu;*/
   /*--folder-tree-text-color: MenuText;*/
   /*--folder-tree-row-height: 25px;*/
   /*--folder-tree-highlight-background-color: var(--tree-row-highlight-background-color);*/
   /*--folder-tree-highlight-text-color: var(--tree-row-highlight-text-color);*/
-  
+
   /*---- Message List ----*/
   /*--message-list-header-background-color: Dialog;*/
   /*--message-list-background-color: none;*/
@@ -69,11 +70,11 @@
   /*--message-list-row-height: 40px;*/
   /*--message-list-highlight-background-color: var(--tree-row-highlight-background-color);*/
   /*--message-list-highlight-text-color: var(--tree-row-highlight-text-color);*/
-  
+
   /*---- Scollbar ----*/
   /*--scrollbar-thumb-color: rgba(127,127,127,0.5);*/
   /*--scrollbar-thumb-hover-color: var(--highlight-color);*/
-    
+
   /*---- Message Headers (To/Subject/From etc) ----*/
   /*--subject-line-font-size: 150%;*/
   /*--headers-background-color: transparent;*/
@@ -82,5 +83,3 @@
 /****************************************************************************/
 /****************************************************************************/
 /****************************************************************************/
-
-
