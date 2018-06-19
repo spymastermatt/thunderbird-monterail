@@ -15,10 +15,10 @@
 */
 
 /* ..... twisty ..... */
-treechildren:-moz-tree-twisty {	list-style-image: url("folder-pane/twisty-dark.svg") !important; padding: 0 5px !important; }
-treechildren:-moz-tree-twisty(open) { list-style-image: url("folder-pane/twisty-expanded-dark.svg") !important; padding: 0 5px !important; }
-treechildren:-moz-tree-twisty(selected) {	list-style-image: url("folder-pane/twisty-light.svg") !important; padding: 0 5px !important; }
-treechildren:-moz-tree-twisty(open,selected) { list-style-image: url("folder-pane/twisty-expanded-light.svg") !important; padding: 0 5px !important; }
+treechildren:-moz-tree-twisty {	list-style-image: url("folder-pane/twisty-gray.svg") !important; padding: 0 5px !important; }
+treechildren:-moz-tree-twisty(open) { list-style-image: url("folder-pane/twisty-expanded-gray.svg") !important; padding: 0 5px !important; }
+treechildren:-moz-tree-twisty(selected) {	list-style-image: url("folder-pane/twisty-white.svg") !important; padding: 0 5px !important; }
+treechildren:-moz-tree-twisty(open,selected) { list-style-image: url("folder-pane/twisty-expanded-white.svg") !important; padding: 0 5px !important; }
 
 /******* Message view icons ********/
 #folderTree treechildren::-moz-tree-image, #threadTree treechildren::-moz-tree-image {
@@ -104,7 +104,8 @@ treechildren::-moz-tree-image(folderNameCol, isFeedFolder-true, selected) { list
 treechildren::-moz-tree-image(folderNameCol, specialFolder-Sent) { list-style-image: url("folder-pane/sent-red.svg") !important; }
 treechildren::-moz-tree-image(folderNameCol, specialFolder-Sent, selected) { list-style-image: url("folder-pane/sent-white.svg") !important; }
 
-treechildren::-moz-tree-image(folderNameCol, specialFolder-Outbox) { list-style-image: url("folder-pane/outbox-dark.svg") !important; }
+treechildren::-moz-tree-image(folderNameCol, specialFolder-Outbox) { list-style-image: url("folder-pane/outbox-red.svg") !important; }
+treechildren::-moz-tree-image(folderNameCol, specialFolder-Outbox, selected) { list-style-image: url("folder-pane/outbox-white.svg") !important; }
 
 treechildren::-moz-tree-image(folderNameCol, specialFolder-Drafts) { list-style-image: url("folder-pane/drafts-red.svg") !important; }
 treechildren::-moz-tree-image(folderNameCol, specialFolder-Drafts, selected) { list-style-image: url("folder-pane/drafts-white.svg") !important; }
@@ -126,7 +127,7 @@ treechildren::-moz-tree-image(folderNameCol, isServer-true) { list-style-image: 
 treechildren::-moz-tree-image(folderNameCol, isServer-true, selected) { list-style-image: url("folder-pane/email-account-white.svg") !important; }
 
 /* Local folders account node */
-treechildren::-moz-tree-image(folderNameCol, isServer-true, serverType-none) { list-style-image: url("folder-pane/local-account-dark.svg") !important; }
+treechildren::-moz-tree-image(folderNameCol, isServer-true, serverType-none) { list-style-image: url("folder-pane/local-account-gray.svg") !important; }
 treechildren::-moz-tree-image(folderNameCol, isServer-true, serverType-none, selected) { list-style-image: url("folder-pane/local-account-white.svg") !important; }
 
 /* News server */
