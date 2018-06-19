@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -32,36 +31,4 @@
      style="fill:#191919;fill-opacity:1"
      id="rect3336"
      d="m 11.2,6.9999998 0,-5.2000005 q 0,-0.081 -0.05937,-0.1406 -0.05938,-0.0594 -0.14063,-0.0594 l -10,0 q -0.08125,0 -0.140625,0.059 Q 0.8,1.7186993 0.8,1.7999993 l 0,5.2000005 q 0,0.081 0.059375,0.1406 0.059375,0.0594 0.140625,0.0594 l 10,0 q 0.08125,0 0.140625,-0.059 0.05937,-0.059 0.05937,-0.1406 z M 12,1.7999993 12,8.5999998 q 0,0.4125 -0.29375,0.7063 -0.29375,0.2937 -0.70625,0.2937 l -3.4,0 q 0,0.2313 0.1,0.4844002 0.1,0.2531 0.2,0.4437 Q 8,10.7187 8,10.8 8,10.9625 7.88125,11.0813 7.7625,11.2 7.6,11.2 l -3.2,0 Q 4.2375,11.2 4.11875,11.0813 4,10.9625 4,10.8 4,10.712 4.1,10.525 4.2,10.3375 4.3,10.0875 4.4,9.8374998 4.4,9.5999998 l -3.4,0 q -0.4125,0 -0.70625,-0.2937 Q 0,9.0124998 0,8.5999998 L 0,1.7999993 q 0,-0.4125 0.29375,-0.7063 Q 0.5875,0.79999927 1,0.79999927 l 10,0 q 0.4125,0 0.70625,0.29370003 Q 12,1.3874993 12,1.7999993 Z" />
-=======
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
-  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
-<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
-   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-      <rdf:Description rdf:about=""/>
-   </rdf:RDF>
-</x:xmpmeta>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<?xpacket end="w"?></metadata>
-<image y="-3" width="12" height="12" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAsCAQAAACN6iPRAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAALiMAAC4jAXilP3YAAAAHdElNRQfiBhISDQPRDSJ0AAAA3UlEQVRYw+3YsRWCQAwG4P9OBzg7OtkAXSBK5xgwgTgJdI4j3gIyAhuIE2gBTyu5vAfRJmkgL0e+l3cUHAYghwI7yMQVle8MOVywESIAoEG6WJ9xECSACJGh55DUAsC+vyyHtPKn+Q0qUQCAHfKHwBzvrnZaF14ooogiiiiiiCJ/QxJyc7cmh6S/+3x3/WASRRSRQFpxo7XIxZHc+hqp4DQtUl8bzkq6fT1VNn4bfp6BkMN9pLzyXagD5+3KJlTZyHFClYdQhnh0QUzBWcKTOMasgeBsfDn6x6IJH85fav8lGXcJXCsAAAAASUVORK5CYII="/>
->>>>>>> 91f63d2b9d3650b0aaebab29cded60938ae93680
 </svg>
