@@ -1,3 +1,12 @@
+# What I added to spymastermatt's work
+
+I added a Light Red theme, changing colors and icons from light blue to red and white, highly based on the Light theme.
+
+## Screenshot
+
+![alt text](https://raw.githubusercontent.com/BDeliers/thunderbird-monterail/master/screenshots/lightRed.png)
+
+# Original README :
 # thunderbird-monterail
 
 This is a set of userChrome.css files to change the look of Thunderbird, inspired by the mockup by Monterail here:
@@ -25,9 +34,9 @@ In **macOS (OSX)**, it must be extracted in `/home/[user]/Library/Thunderbird/Pr
 
 If your profile is located in a different directory, you can find it by going in Thunderbird's preferences (Tools->Options->Advanced). After that, click the 'Config Editor' button, accept the warning and then search for *directory*. Your directory should be the value of the parameter *mail.server.server1.directory*. This is the path where you should extract the chrome folder.
 
-Rename the extracted *thunderbird-monterail* folder to *chrome*, edit userChrome.css to choose your theme variant, and restart thunderbird. 
+Rename the extracted *thunderbird-monterail* folder to *chrome*, edit userChrome.css to choose your theme variant, and restart thunderbird.
 
-If using the *system* variant, please make sure you uncomment the appropriate icon theme line (in userChrome.css) for your system colors (an description of each icon theme is written next to each line) 
+If using the *system* variant, please make sure you uncomment the appropriate icon theme line (in userChrome.css) for your system colors (an description of each icon theme is written next to each line)
 
 You can customise various values, including almost all colors, the fonts and some of the sizing by editing the variables in userChrome.css
 

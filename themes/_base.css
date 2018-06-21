@@ -63,7 +63,7 @@ box, hbox, vbox, toolbox {
 }
 
 splitter {
-	border-color: rgba(127,127,127,0.25) !important;
+	border-color: rgba(25,25,25,0.25) !important;
 }
 
 .mail-toolbox::after,
@@ -72,7 +72,7 @@ splitter {
   display: none !important;
   height: 0px !important;
 }
-	
+
 menu[disabled="true"] label, menuitem[disabled="true"] label, .splitmenu-menuitem[disabled="true"] label, menucaption[disabled="true"] label,
 .chromeclass-toolbar menu[disabled="true"] label, .chromeclass-toolbar menuitem[disabled="true"] label, .chromeclass-toolbar .splitmenu-menuitem[disabled="true"] label, .chromeclass-toolbar menucaption[disabled="true"] label {
   color: grey !important;
@@ -143,7 +143,7 @@ treechildren:-moz-tree-twisty {
 	height: var(--message-list-row-height) !important;
 	border: none !important;
 	background: var(--message-list-background-color) !important;
-	border-bottom: 1px solid rgba(127,127,127,0.2) !important;
+	border-bottom: 1px solid rgba(25,25,25,0.2) !important;
 }
 
 #threadTree > treechildren::-moz-tree-cell-text {
@@ -180,7 +180,7 @@ treechildren:-moz-tree-twisty {
 	padding-bottom: 0px !important;
 	margin-top: 3px !important;
 	margin-bottom: 3px !important;
-	border-left: 1px solid rgba(127,127,127,0.4) !important;
+	border-left: 1px solid rgba(25,25,25,0.4) !important;
 	min-width: 21px !important;
 }
 
@@ -200,7 +200,7 @@ scrollbar {
 srollbarbutton {
 	width: 10px !important;
 	max-width:10px !important;
-}	
+}
 
 slider {
 	width: 10px !important;
@@ -259,7 +259,7 @@ thumb:hover {
 #expandedHeader2Rows #expandedreply-toRow {
 	display: none !important;
 }
-	
+
 #expandedsubjectBox .headerValue {
 	font-size: var(--subject-line-font-size) !important;
 }
