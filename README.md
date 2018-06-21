@@ -1,6 +1,6 @@
 # What I added to spymastermatt's work
 
-I added a Light Red theme, changing colors and icons, highly based on the Light theme.
+I added a Light Red theme, changing colors and icons from light blue to red and white, highly based on the Light theme.
 
 ## Screenshot
 
