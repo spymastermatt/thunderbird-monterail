@@ -41,11 +41,11 @@
   /*** Set active tab background color: ***/
   --fgTabBackgroundColor: var(--dark-light-background) !important;
   
-  --menu-text-color: var(--dark-text-color);
+  
   /*** These highlight colors are used if more specific ones aren't specified below ***/
   --highlight-color: #3DAEE9;
   --highlight-text-color: var(--dark-light-text-color);
-  
+
   /*---- Tree Views (Folder Tree/Message List) General Options ----*/
   --tree-row-highlight-background-color: var(--highlight-color);
   --tree-row-highlight-text-color: var(--highlight-text-color);
@@ -66,6 +66,12 @@
   --message-list-highlight-background-color: var(--tree-row-highlight-background-color);
   --message-list-highlight-text-color: var(--tree-row-highlight-text-color);
   
+  /*---- Context Menu (right click) ----*/
+  --menu-text-color: var(--dark-text-color);
+  --menu-background-color: var(--dark-color);
+  --menu-highlight-text-color: var(--menu-text-color);
+  --menu-highlight-color: var(--highlight-color);
+  
   /*---- Scollbar ----*/
   --scrollbar-thumb-color: rgba(127,127,127,0.5);
   --scrollbar-thumb-hover-color: var(--highlight-color);
@@ -80,63 +86,91 @@
 /******************************************************/
 
 @media(-moz-windows-glass: 0) {
-	#navigation-toolbox {
-		-moz-appearance: none !important;
-		background: var(--dark-color) !important;
-	}
+  #navigation-toolbox {
+    -moz-appearance: none !important;
+    background: var(--dark-color) !important;
+  }
 }
 
 #compose-toolbox, #compose-toolbox > *, #ab-toolbox, .chromeclass-menubar{
-	-moz-appearance: none !important;
-	background: var(--dark-color) !important;
+  -moz-appearance: none !important;
+  background: var(--dark-color) !important;
 }
 
 .tabmail-tab[selected="true"] .tab-content {
-	background-color: var(--dark-light-background) !important;
+  background-color: var(--dark-light-background) !important;
 }
 
 .tabmail-tab[selected="true"] .tab-content * {
-	color: var(--dark-light-text-color) !important;
+  color: var(--dark-light-text-color) !important;
 }
 
 .toolbarbutton-1, .toolbarbutton-menubutton-button, #composeToolbar2{
-     color: var(--dark-text-color) !important;
-  }
-
-menu label, menuitem label, .splitmenu-menuitem label, menucaption label,
-.chromeclass-toolbar menu label, .chromeclass-toolbar menuitem label, .chromeclass-toolbar .splitmenu-menuitem label, .chromeclass-toolbar menucaption label {
-	color: var(--dark-text-color) !important;
+   color: var(--dark-text-color) !important;
 }
 
+menu label,
+menuitem,
+menu,
+menuitem label,
+.splitmenu,
+.splitmenu-menuitem,
+.splitmenu-menuitem label,
+menucaption label,
+.chromeclass-toolbar menu label,
+.chromeclass-toolbar menuitem label,
+.chromeclass-toolbar .splitmenu-menuitem label,
+.chromeclass-toolbar menucaption label {
+  -moz-appearance: none;
+  background-color: var(--menu-background-color);
+  color: var(--menu-text-color);
+}
+
+menu > menupopup,
 menupopup {
-	-moz-appearance: none !important;
-	background: var(--dark-light-background) !important;
+  -moz-appearance: none !important;
+  background-color: var(--menu-background-color) !important;
+  color: var(--menu-text-color) !important;
+}
+
+menu:hover,
+menu:hover > label,
+menuitem:hover label,
+menuitem:hover,
+.splitmenu-menuitem:hover label,
+menucaption:hover label,
+menupopup,
+.chromeclass-toolbar menuitem:hover label,
+.chromeclass-toolbar .splitmenu-menuitem:hover label,
+.chromeclass-toolbar menucaption:hover label {
+  background-color: var(--menu-highlight-color);
+  color: var(--menu-highlight-text-color);
 }
 
 menuseparator {
-	-moz-appearance: none !important;
-	background: var(--dark-text-color) !important;
-	border-bottom-width: 1px !important;
-	border-bottom-color: dimgrey !important;
-	border-bottom-style: solid !important;
+  -moz-appearance: none !important;
+  background: var(--menu-background-color) !important;
+  border-bottom-width: 1px !important;
+  border-bottom-color: dimgrey !important;
+  border-bottom-style: solid !important;
 }
 
 #appmenuSecondaryPane {
-	border-left-color: dimgrey !important;
+  border-left-color: dimgrey !important;
 }
 
 .mail-toolbox {
-	-moz-appearance: none !important;
-	background-color: var(--dark-light-background) !important;
+  -moz-appearance: none !important;
+  background-color: var(--dark-light-background) !important;
 }
 
 .mail-toolbox .chromeclass-toolbar, .mail-toolbox .chromeclass-toolbar > *, .mail-toolbox .chromeclass-toolbar .toolbarbutton-text {
-	color: var(--dark-light-text-color) !important;
+  color: var(--dark-light-text-color) !important;
 }
 
 #mail-toolbox {
-	border: none !important;
-	border-bottom: 1px solid rgba(127,127,127,0.2) !important;
+  border: none !important;
+  border-bottom: 1px solid rgba(127,127,127,0.2) !important;
 }
 
 #titlebar-min {
