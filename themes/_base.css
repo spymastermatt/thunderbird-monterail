@@ -227,6 +227,7 @@ thumb:hover {
 	color: var(--headers-text-color) !important;
 	background-color: var(--headers-background-color) !important;
 	border-bottom: 1px solid rgba(0,0,0,0.25) !important;
+	padding-left: 15px !important;
 }
 
 .msgHeaderView-button {
@@ -271,4 +272,8 @@ thumb:hover {
 menuseparator{
     padding-top: 0 !important;
     padding-bottom: 0 !important;
+}
+
+#threadTree {
+  font-size: var(--message-list-font-size);
 }
