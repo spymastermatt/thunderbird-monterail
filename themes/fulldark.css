@@ -155,3 +155,6 @@ menuseparator {
     list-style-image: url(chrome://messenger/skin/icons/caption-buttons.svg#restore-white) !important;
 }
 
+#quick-filter-bar-main-bar {
+    background: var(--dark-color) !important;
+}
