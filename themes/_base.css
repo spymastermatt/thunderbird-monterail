@@ -146,18 +146,24 @@ treechildren:-moz-tree-twisty {
 	border-bottom: 1px solid rgba(127,127,127,0.2) !important;
 }
 
+/**
+ * Disabled due to https://github.com/spymastermatt/thunderbird-monterail/issues/119#issuecomment-552347340
 #threadTree > treechildren::-moz-tree-cell-text {
 	color: var(--message-list-text-color) !important;
 }
+*/
 
 #threadTree > treechildren::-moz-tree-row(selected) {
 	border: none !important;
 	background: var(--message-list-highlight-background-color) !important;
 }
 
+/**
+ * Disabled due to https://github.com/spymastermatt/thunderbird-monterail/issues/119#issuecomment-552347340
 #threadTree > treechildren::-moz-tree-cell-text(selected) {
 	color: var(--message-list-highlight-text-color) !important;
 }
+*/
 
 #threadCols, #threadCols treecol, #threadCols treecolpicker {
 	-moz-appearance: none !important;
