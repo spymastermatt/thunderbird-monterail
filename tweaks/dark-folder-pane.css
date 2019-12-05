@@ -18,5 +18,6 @@
 
 :root {
   --dark-folder-tree-text-color: -moz-menubartext;
-  --folder-tree-appearance: menubar;
+  --folder-tree-appearance: -moz-DialogText;
+  --folder-tree-background-color: -moz-DialogText;
 }
