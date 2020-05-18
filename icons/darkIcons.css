@@ -39,8 +39,8 @@ treechildren::-moz-tree-image(threadCol) { list-style-image: url("message-list/t
 
 /* ..... read column ..... */
 .readColumnHeader { list-style-image: url("message-list/read-header-dark.svg") !important; }
-treechildren::-moz-tree-image(unreadButtonColHeader) { list-style-image: url("message-list/dot-read.svg") !important; }
-treechildren::-moz-tree-image(unreadButtonColHeader, unread) { list-style-image: url("message-list/dot-unread.svg") !important; }
+treechildren::-moz-tree-image(unreadButtonColHeader) { list-style-image: url("message-list/dot-unread.svg") !important; }
+treechildren::-moz-tree-image(unreadButtonColHeader, unread) { list-style-image: url("message-list/dot-read.svg") !important; }
 /* Unread and read are reversed for dark themes */
 
 /* ..... attachment column ..... */
